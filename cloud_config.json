@@ -1,0 +1,67 @@
+{
+  "base_url": "https://krc-packages.oss-cn-nanjing.aliyuncs.com/",
+  "packages": [
+    {
+      "name": "python-3.11.9-amd64.exe",
+      "url": "https://krc-packages.oss-cn-nanjing.aliyuncs.com/python-3.11.9-amd64.exe",
+      "size": 26214400,
+      "md5": "",
+      "description": "Python 3.11.9 官方安装程序"
+    },
+    {
+      "name": "WeChatSetup.exe",
+      "url": "https://krc-packages.oss-cn-nanjing.aliyuncs.com/WeChatSetup.exe",
+      "size": 157286400,
+      "md5": "",
+      "description": "微信官方安装程序"
+    },
+    {
+      "name": "1.4.2fix.zip",
+      "url": "https://krc-packages.oss-cn-nanjing.aliyuncs.com/1.4.2fix.zip",
+      "size": 104857600,
+      "md5": "",
+      "description": "KouriChat项目文件压缩包",
+      "extract_to": ".",
+      "post_download": "extract"
+    }
+  ],
+  "fallback_urls": {
+    "python-3.11.9-amd64.exe": [
+      "https://github.com/rayL-K/Kouri-installer-packages/releases/download/v1.4.2-fix/python-3.11.9-amd64.exe",
+      "https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe",
+      "https://mirrors.huaweicloud.com/python/3.11.9/python-3.11.9-amd64.exe",
+      "https://mirrors.aliyun.com/python-release/windows/python-3.11.9-amd64.exe"
+    ],
+    "WeChatSetup.exe": [
+      "https://github.com/rayL-K/Kouri-installer-packages/releases/download/v1.4.2-fix/WeChatSetup.exe",
+      "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe"
+    ],
+    "1.4.2fix.zip": [
+      "https://github.com/rayL-K/Kouri-installer-packages/releases/download/v1.4.2-fix/1.4.2fix.zip"
+    ]
+  },
+  "version": "1.4.2-fix",
+  "last_updated": "2025-07-09T15:03:12Z",
+  "description": "阿里云OSS主源 + GitHub备用源配置",
+  "cdn_info": {
+    "primary": {
+      "provider": "阿里云OSS",
+      "region": "华东1(杭州)",
+      "bucket": "krc-packages",
+      "endpoint": "oss-cn-nanjing.aliyuncs.com",
+      "advantages": [
+        "国内高速",
+        "稳定可靠",
+        "低延迟"
+      ]
+    },
+    "fallback": {
+      "provider": "GitHub Release",
+      "advantages": [
+        "全球可用",
+        "免费服务",
+        "版本管理"
+      ]
+    }
+  }
+}
