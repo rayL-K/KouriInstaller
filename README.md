@@ -1,0 +1,2 @@
+# KouriInstaller
+用于辅助Kourichat的安装工具，便于在服务器上利用云下发一键部署python环境变量、微信等环境
