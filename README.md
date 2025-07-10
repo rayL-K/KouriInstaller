@@ -173,7 +173,7 @@ KouriInstaller.exe  # 自动请求管理员权限
       "https://github.com/rayL-K/Kouri-installer-packages/releases/download/v1.4.2-fix/python-3.11.9-amd64.exe"
     ]
   },
-  "version": "1.4.3",
+  "version": "1.4.2-fix",
   "last_updated": "2024-07-09T15:30:00Z",
   "description": "阿里云OSS主源 + GitHub备用源配置"
 }
