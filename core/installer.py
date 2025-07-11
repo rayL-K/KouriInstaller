@@ -139,8 +139,8 @@ class SoftwareInstaller:
                     self.python_installed = True
                     return True
                 else:
-                    self._log(f"系统已安装Python {python_version}，但环境变量配置不正确，将安装新版本")
-                    self._update_progress(f"系统已安装Python {python_version}，但环境变量未配置，将安装新版本")
+                    self._log(f"系统已安装Python {python_version}，但环境变量配置不正确")
+                    self._update_progress(f"系统已安装Python {python_version}，但环境变量配置不正确。将尝试安装新版本以修复路径。")
         
         elif "wechat" in exe_name.lower() or "微信" in exe_name.lower():
             wechat_suitable, wechat_version = checker.check_wechat_version()
@@ -150,8 +150,7 @@ class SoftwareInstaller:
                 return True
         
         return False
-
-
+    
     def wait_for_python_env_vars(self, min_wait_time: int = 10, max_wait_time: int = 60):
         """等待Python环境变量生效"""
         if not self.python_install_time:

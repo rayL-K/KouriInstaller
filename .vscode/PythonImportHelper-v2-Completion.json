@@ -1,0 +1,3761 @@
+[
+    {
+        "label": "urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.error",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.error",
+        "description": "urllib.error",
+        "detail": "urllib.error",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "ctypes",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ctypes",
+        "description": "ctypes",
+        "detail": "ctypes",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "winreg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "winreg",
+        "description": "winreg",
+        "detail": "winreg",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "LLMService",
+        "importPath": "src.services.ai.llm_service",
+        "description": "src.services.ai.llm_service",
+        "isExtraImport": true,
+        "detail": "src.services.ai.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMService",
+        "importPath": "src.services.ai.llm_service",
+        "description": "src.services.ai.llm_service",
+        "isExtraImport": true,
+        "detail": "src.services.ai.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMService",
+        "importPath": "src.services.ai.llm_service",
+        "description": "src.services.ai.llm_service",
+        "isExtraImport": true,
+        "detail": "src.services.ai.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMService",
+        "importPath": "src.services.ai.llm_service",
+        "description": "src.services.ai.llm_service",
+        "isExtraImport": true,
+        "detail": "src.services.ai.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMService",
+        "importPath": "src.services.ai.llm_service",
+        "description": "src.services.ai.llm_service",
+        "isExtraImport": true,
+        "detail": "src.services.ai.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMService",
+        "importPath": "src.services.ai.llm_service",
+        "description": "src.services.ai.llm_service",
+        "isExtraImport": true,
+        "detail": "src.services.ai.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "WEBLENS_ENABLED",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "NETWORK_SEARCH_ENABLED",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "NETWORK_SEARCH_ENABLED",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "WEBLENS_ENABLED",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "DEEPSEEK_API_KEY",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "DEEPSEEK_BASE_URL",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_TOKEN",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPERATURE",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_GROUPS",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundScheduler",
+        "importPath": "apscheduler.schedulers.background",
+        "description": "apscheduler.schedulers.background",
+        "isExtraImport": true,
+        "detail": "apscheduler.schedulers.background",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundScheduler",
+        "importPath": "apscheduler.schedulers.background",
+        "description": "apscheduler.schedulers.background",
+        "isExtraImport": true,
+        "detail": "apscheduler.schedulers.background",
+        "documentation": {}
+    },
+    {
+        "label": "DateTrigger",
+        "importPath": "apscheduler.triggers.date",
+        "description": "apscheduler.triggers.date",
+        "isExtraImport": true,
+        "detail": "apscheduler.triggers.date",
+        "documentation": {}
+    },
+    {
+        "label": "print_status",
+        "importPath": "src.utils.console",
+        "description": "src.utils.console",
+        "isExtraImport": true,
+        "detail": "src.utils.console",
+        "documentation": {}
+    },
+    {
+        "label": "print_status",
+        "importPath": "src.utils.console",
+        "description": "src.utils.console",
+        "isExtraImport": true,
+        "detail": "src.utils.console",
+        "documentation": {}
+    },
+    {
+        "label": "print_status",
+        "importPath": "src.utils.console",
+        "description": "src.utils.console",
+        "isExtraImport": true,
+        "detail": "src.utils.console",
+        "documentation": {}
+    },
+    {
+        "label": "print_banner",
+        "importPath": "src.utils.console",
+        "description": "src.utils.console",
+        "isExtraImport": true,
+        "detail": "src.utils.console",
+        "documentation": {}
+    },
+    {
+        "label": "print_status",
+        "importPath": "src.utils.console",
+        "description": "src.utils.console",
+        "isExtraImport": true,
+        "detail": "src.utils.console",
+        "documentation": {}
+    },
+    {
+        "label": "CronTrigger",
+        "importPath": "apscheduler.triggers.cron",
+        "description": "apscheduler.triggers.cron",
+        "isExtraImport": true,
+        "detail": "apscheduler.triggers.cron",
+        "documentation": {}
+    },
+    {
+        "label": "IntervalTrigger",
+        "importPath": "apscheduler.triggers.interval",
+        "description": "apscheduler.triggers.interval",
+        "isExtraImport": true,
+        "detail": "apscheduler.triggers.interval",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "fnmatch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fnmatch",
+        "description": "fnmatch",
+        "detail": "fnmatch",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "ContentGenerator",
+        "importPath": "modules.memory.content_generator",
+        "description": "modules.memory.content_generator",
+        "isExtraImport": true,
+        "detail": "modules.memory.content_generator",
+        "documentation": {}
+    },
+    {
+        "label": "ContentGenerator",
+        "importPath": "modules.memory.content_generator",
+        "description": "modules.memory.content_generator",
+        "isExtraImport": true,
+        "detail": "modules.memory.content_generator",
+        "documentation": {}
+    },
+    {
+        "label": "ContentGenerator",
+        "importPath": "modules.memory.content_generator",
+        "description": "modules.memory.content_generator",
+        "isExtraImport": true,
+        "detail": "modules.memory.content_generator",
+        "documentation": {}
+    },
+    {
+        "label": "pyautogui",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyautogui",
+        "description": "pyautogui",
+        "detail": "pyautogui",
+        "documentation": {}
+    },
+    {
+        "label": "WeChat",
+        "importPath": "wxauto",
+        "description": "wxauto",
+        "isExtraImport": true,
+        "detail": "wxauto",
+        "documentation": {}
+    },
+    {
+        "label": "WeChat",
+        "importPath": "wxauto",
+        "description": "wxauto",
+        "isExtraImport": true,
+        "detail": "wxauto",
+        "documentation": {}
+    },
+    {
+        "label": "WeChat",
+        "importPath": "wxauto",
+        "description": "wxauto",
+        "isExtraImport": true,
+        "detail": "wxauto",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "APIConnectionError",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationError",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "APIError",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "src.services.database",
+        "description": "src.services.database",
+        "isExtraImport": true,
+        "detail": "src.services.database",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMessage",
+        "importPath": "src.services.database",
+        "description": "src.services.database",
+        "isExtraImport": true,
+        "detail": "src.services.database",
+        "documentation": {}
+    },
+    {
+        "label": "NetworkSearchService",
+        "importPath": "src.services.ai.network_search_service",
+        "description": "src.services.ai.network_search_service",
+        "isExtraImport": true,
+        "detail": "src.services.ai.network_search_service",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryService",
+        "importPath": "modules.memory.memory_service",
+        "description": "modules.memory.memory_service",
+        "isExtraImport": true,
+        "detail": "modules.memory.memory_service",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryService",
+        "importPath": "modules.memory.memory_service",
+        "description": "modules.memory.memory_service",
+        "isExtraImport": true,
+        "detail": "modules.memory.memory_service",
+        "documentation": {}
+    },
+    {
+        "label": "TimeRecognitionService",
+        "importPath": "modules.reminder.time_recognition",
+        "description": "modules.reminder.time_recognition",
+        "isExtraImport": true,
+        "detail": "modules.reminder.time_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "ReminderService",
+        "importPath": "modules.reminder",
+        "description": "modules.reminder",
+        "isExtraImport": true,
+        "detail": "modules.reminder",
+        "documentation": {}
+    },
+    {
+        "label": "emoji",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "emoji",
+        "description": "emoji",
+        "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "fish_audio_sdk",
+        "description": "fish_audio_sdk",
+        "isExtraImport": true,
+        "detail": "fish_audio_sdk",
+        "documentation": {}
+    },
+    {
+        "label": "TTSRequest",
+        "importPath": "fish_audio_sdk",
+        "description": "fish_audio_sdk",
+        "isExtraImport": true,
+        "detail": "fish_audio_sdk",
+        "documentation": {}
+    },
+    {
+        "label": "retry",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "stop_after_attempt",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "wait_exponential",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "retry_if_exception_type",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "retry",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "stop_after_attempt",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "wait_exponential",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "wait_fixed",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "retry_if_exception_type",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "retry",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "stop_after_attempt",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "wait_random_exponential",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "retry_if_exception_type",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "Updater",
+        "importPath": "src.autoupdate.updater",
+        "description": "src.autoupdate.updater",
+        "isExtraImport": true,
+        "detail": "src.autoupdate.updater",
+        "documentation": {}
+    },
+    {
+        "label": "Updater",
+        "importPath": "src.autoupdate.updater",
+        "description": "src.autoupdate.updater",
+        "isExtraImport": true,
+        "detail": "src.autoupdate.updater",
+        "documentation": {}
+    },
+    {
+        "label": "Updater",
+        "importPath": "src.autoupdate.updater",
+        "description": "src.autoupdate.updater",
+        "isExtraImport": true,
+        "detail": "src.autoupdate.updater",
+        "documentation": {}
+    },
+    {
+        "label": "Updater",
+        "importPath": "src.autoupdate.updater",
+        "description": "src.autoupdate.updater",
+        "isExtraImport": true,
+        "detail": "src.autoupdate.updater",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "RotatingFileHandler",
+        "importPath": "logging.handlers",
+        "description": "logging.handlers",
+        "isExtraImport": true,
+        "detail": "logging.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "send_from_directory",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "win32gui",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "win32gui",
+        "description": "win32gui",
+        "detail": "win32gui",
+        "documentation": {}
+    },
+    {
+        "label": "win32con",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "win32con",
+        "description": "win32con",
+        "detail": "win32con",
+        "documentation": {}
+    },
+    {
+        "label": "win32api",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "win32api",
+        "description": "win32api",
+        "detail": "win32api",
+        "documentation": {}
+    },
+    {
+        "label": "EmojiHandler",
+        "importPath": "src.handlers.emoji",
+        "description": "src.handlers.emoji",
+        "isExtraImport": true,
+        "detail": "src.handlers.emoji",
+        "documentation": {}
+    },
+    {
+        "label": "ImageHandler",
+        "importPath": "src.handlers.image",
+        "description": "src.handlers.image",
+        "isExtraImport": true,
+        "detail": "src.handlers.image",
+        "documentation": {}
+    },
+    {
+        "label": "MessageHandler",
+        "importPath": "src.handlers.message",
+        "description": "src.handlers.message",
+        "isExtraImport": true,
+        "detail": "src.handlers.message",
+        "documentation": {}
+    },
+    {
+        "label": "VoiceHandler",
+        "importPath": "src.handlers.voice",
+        "description": "src.handlers.voice",
+        "isExtraImport": true,
+        "detail": "src.handlers.voice",
+        "documentation": {}
+    },
+    {
+        "label": "ImageRecognitionService",
+        "importPath": "src.services.ai.image_recognition_service",
+        "description": "src.services.ai.image_recognition_service",
+        "isExtraImport": true,
+        "detail": "src.services.ai.image_recognition_service",
+        "documentation": {}
+    },
+    {
+        "label": "LoggerConfig",
+        "importPath": "src.utils.logger",
+        "description": "src.utils.logger",
+        "isExtraImport": true,
+        "detail": "src.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTasker",
+        "importPath": "src.AutoTasker.autoTasker",
+        "description": "src.AutoTasker.autoTasker",
+        "isExtraImport": true,
+        "detail": "src.AutoTasker.autoTasker",
+        "documentation": {}
+    },
+    {
+        "label": "AutoSendHandler",
+        "importPath": "src.handlers.autosend",
+        "description": "src.handlers.autosend",
+        "isExtraImport": true,
+        "detail": "src.handlers.autosend",
+        "documentation": {}
+    },
+    {
+        "label": "codecs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "codecs",
+        "description": "codecs",
+        "detail": "codecs",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "secure_filename",
+        "importPath": "werkzeug.utils",
+        "description": "werkzeug.utils",
+        "isExtraImport": true,
+        "detail": "werkzeug.utils",
+        "documentation": {}
+    },
+    {
+        "label": "psutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psutil",
+        "description": "psutil",
+        "detail": "psutil",
+        "documentation": {}
+    },
+    {
+        "label": "Queue",
+        "importPath": "queue",
+        "description": "queue",
+        "isExtraImport": true,
+        "detail": "queue",
+        "documentation": {}
+    },
+    {
+        "label": "dictConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "signal",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "signal",
+        "description": "signal",
+        "detail": "signal",
+        "documentation": {}
+    },
+    {
+        "label": "atexit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "atexit",
+        "description": "atexit",
+        "detail": "atexit",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "webbrowser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "avatar_manager",
+        "importPath": "src.avatar_manager",
+        "description": "src.avatar_manager",
+        "isExtraImport": true,
+        "detail": "src.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "avatar_bp",
+        "importPath": "src.webui.routes.avatar",
+        "description": "src.webui.routes.avatar",
+        "isExtraImport": true,
+        "detail": "src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "win32job",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "win32job",
+        "description": "win32job",
+        "detail": "win32job",
+        "documentation": {}
+    },
+    {
+        "label": "win32process",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "win32process",
+        "description": "win32process",
+        "detail": "win32process",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "font",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "filedialog",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "HotUpdater",
+        "importPath": "core.hot_updater",
+        "description": "core.hot_updater",
+        "isExtraImport": true,
+        "detail": "core.hot_updater",
+        "documentation": {}
+    },
+    {
+        "label": "HotUpdater",
+        "importPath": "core.hot_updater",
+        "description": "core.hot_updater",
+        "isExtraImport": true,
+        "detail": "core.hot_updater",
+        "documentation": {}
+    },
+    {
+        "label": "InstallationController",
+        "importPath": "main_controller",
+        "description": "main_controller",
+        "isExtraImport": true,
+        "detail": "main_controller",
+        "documentation": {}
+    },
+    {
+        "label": "ProgressWindow",
+        "importPath": "ui.progress_window",
+        "description": "ui.progress_window",
+        "isExtraImport": true,
+        "detail": "ui.progress_window",
+        "documentation": {}
+    },
+    {
+        "label": "CloudDownloader",
+        "importPath": "core.cloud_downloader",
+        "description": "core.cloud_downloader",
+        "isExtraImport": true,
+        "detail": "core.cloud_downloader",
+        "documentation": {}
+    },
+    {
+        "label": "SystemChecker",
+        "importPath": "core.system_checker",
+        "description": "core.system_checker",
+        "isExtraImport": true,
+        "detail": "core.system_checker",
+        "documentation": {}
+    },
+    {
+        "label": "SoftwareInstaller",
+        "importPath": "core.installer",
+        "description": "core.installer",
+        "isExtraImport": true,
+        "detail": "core.installer",
+        "documentation": {}
+    },
+    {
+        "label": "ScriptLauncher",
+        "importPath": "core.launcher",
+        "description": "core.launcher",
+        "isExtraImport": true,
+        "detail": "core.launcher",
+        "documentation": {}
+    },
+    {
+        "label": "CloudDownloader",
+        "kind": 6,
+        "importPath": "core.cloud_downloader",
+        "description": "core.cloud_downloader",
+        "peekOfCode": "class CloudDownloader:\n    \"\"\"云端下载器\"\"\"\n    def __init__(self, progress_callback=None):\n        \"\"\"\n        初始化云端下载器\n        Args:\n            progress_callback: 进度回调函数\n        \"\"\"\n        self.progress_callback = progress_callback\n        self.app_path = self._get_application_path()",
+        "detail": "core.cloud_downloader",
+        "documentation": {}
+    },
+    {
+        "label": "HotUpdater",
+        "kind": 6,
+        "importPath": "core.hot_updater",
+        "description": "core.hot_updater",
+        "peekOfCode": "class HotUpdater:\n    \"\"\"热更新器 - 负责从云端更新配置文件\"\"\"\n    def __init__(self, progress_callback=None):\n        \"\"\"\n        初始化热更新器\n        Args:\n            progress_callback: 进度回调函数\n        \"\"\"\n        self.progress_callback = progress_callback\n        self.app_path = self._get_application_path()",
+        "detail": "core.hot_updater",
+        "documentation": {}
+    },
+    {
+        "label": "SoftwareInstaller",
+        "kind": 6,
+        "importPath": "core.installer",
+        "description": "core.installer",
+        "peekOfCode": "class SoftwareInstaller:\n    \"\"\"软件安装器\"\"\"\n    def __init__(self, progress_callback=None):\n        \"\"\"\n        初始化安装器\n        Args:\n            progress_callback: 进度回调函数\n        \"\"\"\n        self.progress_callback = progress_callback\n        self.python_installed = False",
+        "detail": "core.installer",
+        "documentation": {}
+    },
+    {
+        "label": "ScriptLauncher",
+        "kind": 6,
+        "importPath": "core.launcher",
+        "description": "core.launcher",
+        "peekOfCode": "class ScriptLauncher:\n    \"\"\"脚本启动器\"\"\"\n    def __init__(self, progress_callback=None):\n        \"\"\"\n        初始化启动器\n        Args:\n            progress_callback: 进度回调函数\n        \"\"\"\n        self.progress_callback = progress_callback\n        self.app_path = self._get_application_path()",
+        "detail": "core.launcher",
+        "documentation": {}
+    },
+    {
+        "label": "SystemChecker",
+        "kind": 6,
+        "importPath": "core.system_checker",
+        "description": "core.system_checker",
+        "peekOfCode": "class SystemChecker:\n    \"\"\"系统检查器\"\"\"\n    def __init__(self, progress_callback=None):\n        \"\"\"\n        初始化系统检查器\n        Args:\n            progress_callback: 进度回调函数\n        \"\"\"\n        self.progress_callback = progress_callback\n    def _log(self, message: str):",
+        "detail": "core.system_checker",
+        "documentation": {}
+    },
+    {
+        "label": "ContentGenerator",
+        "kind": 6,
+        "importPath": "kourichat.modules.memory.content_generator",
+        "description": "kourichat.modules.memory.content_generator",
+        "peekOfCode": "class ContentGenerator:\n    \"\"\"\n    内容生成服务模块，生成基于角色视角的各种内容\n    功能：\n    1. 从最近对话中提取内容\n    2. 结合人设生成各种类型的内容\n    3. 保存到文件并在聊天中输出\n    \"\"\"\n    def __init__(self, root_dir: str, api_key: str, base_url: str, model: str, max_token: int, temperature: float):\n        self.root_dir = root_dir",
+        "detail": "kourichat.modules.memory.content_generator",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.modules.memory.content_generator",
+        "description": "kourichat.modules.memory.content_generator",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass ContentGenerator:\n    \"\"\"\n    内容生成服务模块，生成基于角色视角的各种内容\n    功能：\n    1. 从最近对话中提取内容\n    2. 结合人设生成各种类型的内容\n    3. 保存到文件并在聊天中输出\n    \"\"\"\n    def __init__(self, root_dir: str, api_key: str, base_url: str, model: str, max_token: int, temperature: float):",
+        "detail": "kourichat.modules.memory.content_generator",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryService",
+        "kind": 6,
+        "importPath": "kourichat.modules.memory.memory_service",
+        "description": "kourichat.modules.memory.memory_service",
+        "peekOfCode": "class MemoryService:\n    \"\"\"\n    新版记忆服务模块，包含两种记忆类型:\n    1. 短期记忆：用于保存最近对话，在程序重启后加载到上下文\n    2. 核心记忆：精简的用户核心信息摘要(50-100字)\n    每个用户拥有独立的记忆存储空间\n    \"\"\"\n    def __init__(self, root_dir: str, api_key: str, base_url: str, model: str, max_token: int, temperature: float, max_groups: int = 10):\n        self.root_dir = root_dir\n        self.api_key = api_key",
+        "detail": "kourichat.modules.memory.memory_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.modules.memory.memory_service",
+        "description": "kourichat.modules.memory.memory_service",
+        "peekOfCode": "logger = logging.getLogger('memory')\nclass MemoryService:\n    \"\"\"\n    新版记忆服务模块，包含两种记忆类型:\n    1. 短期记忆：用于保存最近对话，在程序重启后加载到上下文\n    2. 核心记忆：精简的用户核心信息摘要(50-100字)\n    每个用户拥有独立的记忆存储空间\n    \"\"\"\n    def __init__(self, root_dir: str, api_key: str, base_url: str, model: str, max_token: int, temperature: float, max_groups: int = 10):\n        self.root_dir = root_dir",
+        "detail": "kourichat.modules.memory.memory_service",
+        "documentation": {}
+    },
+    {
+        "label": "ReminderService",
+        "kind": 6,
+        "importPath": "kourichat.modules.reminder.reminder_service",
+        "description": "kourichat.modules.reminder.reminder_service",
+        "peekOfCode": "class ReminderService:\n    def __init__(self, message_handler):\n        # 添加调度器配置，容忍任务错过时间\n        job_defaults = {\n            'misfire_grace_time': 60,  # 允许任务最多延迟60秒执行\n            'coalesce': True           # 合并错过的执行\n        }\n        # 使用线程池而不限制最大工作线程\n        executors = {\n            'default': {'type': 'threadpool'}  # 使用默认值",
+        "detail": "kourichat.modules.reminder.reminder_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.modules.reminder.reminder_service",
+        "description": "kourichat.modules.reminder.reminder_service",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass ReminderService:\n    def __init__(self, message_handler):\n        # 添加调度器配置，容忍任务错过时间\n        job_defaults = {\n            'misfire_grace_time': 60,  # 允许任务最多延迟60秒执行\n            'coalesce': True           # 合并错过的执行\n        }\n        # 使用线程池而不限制最大工作线程\n        executors = {",
+        "detail": "kourichat.modules.reminder.reminder_service",
+        "documentation": {}
+    },
+    {
+        "label": "TimeRecognitionService",
+        "kind": 6,
+        "importPath": "kourichat.modules.reminder.time_recognition",
+        "description": "kourichat.modules.reminder.time_recognition",
+        "peekOfCode": "class TimeRecognitionService:\n    def __init__(self, llm_service):\n        \"\"\"\n        初始化时间和搜索识别服务\n        Args:\n            llm_service: LLM服务实例，用于时间和搜索识别\n        \"\"\"\n        self.llm_service = llm_service\n        # 从文件读取提示词\n        current_dir = os.path.dirname(os.path.abspath(__file__))",
+        "detail": "kourichat.modules.reminder.time_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.modules.reminder.time_recognition",
+        "description": "kourichat.modules.reminder.time_recognition",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass TimeRecognitionService:\n    def __init__(self, llm_service):\n        \"\"\"\n        初始化时间和搜索识别服务\n        Args:\n            llm_service: LLM服务实例，用于时间和搜索识别\n        \"\"\"\n        self.llm_service = llm_service\n        # 从文件读取提示词",
+        "detail": "kourichat.modules.reminder.time_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTasker",
+        "kind": 6,
+        "importPath": "kourichat.src.AutoTasker.autoTasker",
+        "description": "kourichat.src.AutoTasker.autoTasker",
+        "peekOfCode": "class AutoTasker:\n    def __init__(self, message_handler, task_file_path=\"data/tasks.json\"):\n        \"\"\"\n        初始化自动任务管理器\n        Args:\n            message_handler: 消息处理器实例，用于发送消息\n            task_file_path: 任务配置文件路径\n        \"\"\"\n        self.message_handler = message_handler\n        self.task_file_path = task_file_path",
+        "detail": "kourichat.src.AutoTasker.autoTasker",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.AutoTasker.autoTasker",
+        "description": "kourichat.src.AutoTasker.autoTasker",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AutoTasker:\n    def __init__(self, message_handler, task_file_path=\"data/tasks.json\"):\n        \"\"\"\n        初始化自动任务管理器\n        Args:\n            message_handler: 消息处理器实例，用于发送消息\n            task_file_path: 任务配置文件路径\n        \"\"\"\n        self.message_handler = message_handler",
+        "detail": "kourichat.src.AutoTasker.autoTasker",
+        "documentation": {}
+    },
+    {
+        "label": "Updater",
+        "kind": 6,
+        "importPath": "kourichat.src.autoupdate.updater",
+        "description": "kourichat.src.autoupdate.updater",
+        "peekOfCode": "class Updater:\n    # 云端公告、版本信息、模型列表和更新包 URLs\n    CLOUD_ANNOUNCEMENT_URL = \"https://git.kourichat.com/KouriChat-Main/cloud-delivery-repo/raw/branch/main/config/announcement.json\"\n    CLOUD_VERSION_URL = \"https://git.kourichat.com/KouriChat-Main/cloud-delivery-repo/raw/branch/main/config/version.json\"\n    CLOUD_MODELS_URL = \"https://git.kourichat.com/KouriChat-Main/cloud-delivery-repo/raw/branch/main/config/models.json\"\n    CLOUD_RELEASE_URL = \"https://git.kourichat.com/KouriChat-Main/cloud-delivery-repo/raw/branch/main/releases/releases.zip\"\n    # 默认需要跳过的文件和文件夹（不会被更新）\n    DEFAULT_IGNORE_PATTERNS = [\n        # 用户数据目录，排除base.md\n        \"data/**\",",
+        "detail": "kourichat.src.autoupdate.updater",
+        "documentation": {}
+    },
+    {
+        "label": "check_cloud_info",
+        "kind": 2,
+        "importPath": "kourichat.src.autoupdate.updater",
+        "description": "kourichat.src.autoupdate.updater",
+        "peekOfCode": "def check_cloud_info():\n    \"\"\"检查云端公告、版本信息和模型列表\"\"\"\n    logger.info(\"开始检查云端信息...\")\n    try:\n        updater = Updater()\n        announcement = updater.fetch_cloud_announcement()\n        version = updater.fetch_cloud_version()\n        models = updater.fetch_cloud_models()\n        # 检查是否所有请求都失败了\n        if announcement is None and version is None and models is None:",
+        "detail": "kourichat.src.autoupdate.updater",
+        "documentation": {}
+    },
+    {
+        "label": "check_and_update",
+        "kind": 2,
+        "importPath": "kourichat.src.autoupdate.updater",
+        "description": "kourichat.src.autoupdate.updater",
+        "peekOfCode": "def check_and_update():\n    \"\"\"检查并执行更新\"\"\"\n    logger.info(\"开始检查云端更新...\")\n    updater = Updater()\n    return updater.update()\nif __name__ == \"__main__\":\n    # 设置日志格式\n    logging.basicConfig(\n        level=logging.INFO,\n        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'",
+        "detail": "kourichat.src.autoupdate.updater",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.autoupdate.updater",
+        "description": "kourichat.src.autoupdate.updater",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass Updater:\n    # 云端公告、版本信息、模型列表和更新包 URLs\n    CLOUD_ANNOUNCEMENT_URL = \"https://git.kourichat.com/KouriChat-Main/cloud-delivery-repo/raw/branch/main/config/announcement.json\"\n    CLOUD_VERSION_URL = \"https://git.kourichat.com/KouriChat-Main/cloud-delivery-repo/raw/branch/main/config/version.json\"\n    CLOUD_MODELS_URL = \"https://git.kourichat.com/KouriChat-Main/cloud-delivery-repo/raw/branch/main/config/models.json\"\n    CLOUD_RELEASE_URL = \"https://git.kourichat.com/KouriChat-Main/cloud-delivery-repo/raw/branch/main/releases/releases.zip\"\n    # 默认需要跳过的文件和文件夹（不会被更新）\n    DEFAULT_IGNORE_PATTERNS = [\n        # 用户数据目录，排除base.md",
+        "detail": "kourichat.src.autoupdate.updater",
+        "documentation": {}
+    },
+    {
+        "label": "AutoSendHandler",
+        "kind": 6,
+        "importPath": "kourichat.src.handlers.autosend",
+        "description": "kourichat.src.handlers.autosend",
+        "peekOfCode": "class AutoSendHandler:\n    def __init__(self, message_handler, config, listen_list):\n        self.message_handler = message_handler\n        self.config = config\n        self.listen_list = listen_list\n        # 计时器相关\n        self.countdown_timer = None\n        self.is_countdown_running = False\n        self.countdown_end_time = None\n        self.unanswered_count = 0",
+        "detail": "kourichat.src.handlers.autosend",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.handlers.autosend",
+        "description": "kourichat.src.handlers.autosend",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass AutoSendHandler:\n    def __init__(self, message_handler, config, listen_list):\n        self.message_handler = message_handler\n        self.config = config\n        self.listen_list = listen_list\n        # 计时器相关\n        self.countdown_timer = None\n        self.is_countdown_running = False\n        self.countdown_end_time = None",
+        "detail": "kourichat.src.handlers.autosend",
+        "documentation": {}
+    },
+    {
+        "label": "DebugCommandHandler",
+        "kind": 6,
+        "importPath": "kourichat.src.handlers.debug",
+        "description": "kourichat.src.handlers.debug",
+        "peekOfCode": "class DebugCommandHandler:\n    \"\"\"调试命令处理器类，处理各种调试命令\"\"\"\n    def __init__(self, root_dir: str, memory_service=None, llm_service=None, content_generator=None):\n        \"\"\"\n        初始化调试命令处理器\n        Args:\n            root_dir: 项目根目录\n            memory_service: 记忆服务实例\n            llm_service: LLM服务实例\n            content_generator: 内容生成服务实例",
+        "detail": "kourichat.src.handlers.debug",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.handlers.debug",
+        "description": "kourichat.src.handlers.debug",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass DebugCommandHandler:\n    \"\"\"调试命令处理器类，处理各种调试命令\"\"\"\n    def __init__(self, root_dir: str, memory_service=None, llm_service=None, content_generator=None):\n        \"\"\"\n        初始化调试命令处理器\n        Args:\n            root_dir: 项目根目录\n            memory_service: 记忆服务实例\n            llm_service: LLM服务实例",
+        "detail": "kourichat.src.handlers.debug",
+        "documentation": {}
+    },
+    {
+        "label": "EmojiHandler",
+        "kind": 6,
+        "importPath": "kourichat.src.handlers.emoji",
+        "description": "kourichat.src.handlers.emoji",
+        "peekOfCode": "class EmojiHandler:\n    def __init__(self, root_dir):\n        self.root_dir = root_dir\n        # 修改表情包目录路径为avatar目录下的emojis\n        self.emoji_dir = os.path.join(root_dir, config.behavior.context.avatar_dir, \"emojis\")\n        # 支持的表情类型\n        self.emotion_types = [\n    'happy', 'sad', 'angry', 'neutral', 'love', 'funny', 'cute', 'bored', 'shy',\n    'embarrassed', 'sleepy', 'lonely', 'hungry', 'comfort', 'surprise', 'confused',\n    'playful', 'excited', 'tease', 'hot', 'speechless', 'scared', 'emo_1',",
+        "detail": "kourichat.src.handlers.emoji",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.handlers.emoji",
+        "description": "kourichat.src.handlers.emoji",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass EmojiHandler:\n    def __init__(self, root_dir):\n        self.root_dir = root_dir\n        # 修改表情包目录路径为avatar目录下的emojis\n        self.emoji_dir = os.path.join(root_dir, config.behavior.context.avatar_dir, \"emojis\")\n        # 支持的表情类型\n        self.emotion_types = [\n    'happy', 'sad', 'angry', 'neutral', 'love', 'funny', 'cute', 'bored', 'shy',\n    'embarrassed', 'sleepy', 'lonely', 'hungry', 'comfort', 'surprise', 'confused',",
+        "detail": "kourichat.src.handlers.emoji",
+        "documentation": {}
+    },
+    {
+        "label": "ImageHandler",
+        "kind": 6,
+        "importPath": "kourichat.src.handlers.image",
+        "description": "kourichat.src.handlers.image",
+        "peekOfCode": "class ImageHandler:\n    def __init__(self, root_dir, api_key, base_url, image_model):\n        self.root_dir = root_dir\n        self.api_key = api_key\n        self.base_url = base_url\n        self.image_model = image_model\n        self.temp_dir = os.path.join(root_dir, \"data\", \"images\", \"temp\")\n        # 复用消息模块的AI实例(使用正确的模型名称)\n        from src.config import config\n        self.text_ai = LLMService(",
+        "detail": "kourichat.src.handlers.image",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.handlers.image",
+        "description": "kourichat.src.handlers.image",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass ImageHandler:\n    def __init__(self, root_dir, api_key, base_url, image_model):\n        self.root_dir = root_dir\n        self.api_key = api_key\n        self.base_url = base_url\n        self.image_model = image_model\n        self.temp_dir = os.path.join(root_dir, \"data\", \"images\", \"temp\")\n        # 复用消息模块的AI实例(使用正确的模型名称)\n        from src.config import config",
+        "detail": "kourichat.src.handlers.image",
+        "documentation": {}
+    },
+    {
+        "label": "MessageHandler",
+        "kind": 6,
+        "importPath": "kourichat.src.handlers.message",
+        "description": "kourichat.src.handlers.message",
+        "peekOfCode": "class MessageHandler:\n    def __init__(self, root_dir, api_key, base_url, model, max_token, temperature,\n                 max_groups, robot_name, prompt_content, image_handler, emoji_handler, voice_handler, memory_service, content_generator=None):\n        self.root_dir = root_dir\n        self.api_key = api_key\n        self.model = model\n        self.max_token = max_token\n        self.temperature = temperature\n        self.max_groups = max_groups\n        self.robot_name = robot_name",
+        "detail": "kourichat.src.handlers.message",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.handlers.message",
+        "description": "kourichat.src.handlers.message",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass MessageHandler:\n    def __init__(self, root_dir, api_key, base_url, model, max_token, temperature,\n                 max_groups, robot_name, prompt_content, image_handler, emoji_handler, voice_handler, memory_service, content_generator=None):\n        self.root_dir = root_dir\n        self.api_key = api_key\n        self.model = model\n        self.max_token = max_token\n        self.temperature = temperature\n        self.max_groups = max_groups",
+        "detail": "kourichat.src.handlers.message",
+        "documentation": {}
+    },
+    {
+        "label": "VoiceHandler",
+        "kind": 6,
+        "importPath": "kourichat.src.handlers.voice",
+        "description": "kourichat.src.handlers.voice",
+        "peekOfCode": "class VoiceHandler:\n    def __init__(self, root_dir, tts_api_key):\n        self.root_dir = root_dir\n        self.voice_dir = os.path.join(root_dir, \"data\", \"voices\")\n        self.tts_api_key = tts_api_key\n        # 确保语音目录存在\n        os.makedirs(self.voice_dir, exist_ok=True)\n    def is_voice_request(self, text: str) -> bool:\n        \"\"\"判断是否为语音请求\"\"\"\n        voice_keywords = [\"语音\"]",
+        "detail": "kourichat.src.handlers.voice",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.handlers.voice",
+        "description": "kourichat.src.handlers.voice",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass VoiceHandler:\n    def __init__(self, root_dir, tts_api_key):\n        self.root_dir = root_dir\n        self.voice_dir = os.path.join(root_dir, \"data\", \"voices\")\n        self.tts_api_key = tts_api_key\n        # 确保语音目录存在\n        os.makedirs(self.voice_dir, exist_ok=True)\n    def is_voice_request(self, text: str) -> bool:\n        \"\"\"判断是否为语音请求\"\"\"",
+        "detail": "kourichat.src.handlers.voice",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelAI",
+        "kind": 6,
+        "importPath": "kourichat.src.services.ai.embedding",
+        "description": "kourichat.src.services.ai.embedding",
+        "peekOfCode": "class EmbeddingModelAI:\n    def __init__(self, model_name='text-embedding-v2', dimension=1024):\n        self.client = None\n        self.available = True\n        self.api_key = \"sk-96d4c845a4ed4ab5b7af7668e298f1c6\"\n        self.model_name = model_name\n        self.dimension = dimension\n        try:\n            self.client = OpenAI(\n                api_key=self.api_key,",
+        "detail": "kourichat.src.services.ai.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "ImageRecognitionService",
+        "kind": 6,
+        "importPath": "kourichat.src.services.ai.image_recognition_service",
+        "description": "kourichat.src.services.ai.image_recognition_service",
+        "peekOfCode": "class ImageRecognitionService:\n    def __init__(self, api_key: str, base_url: str, temperature: float, model: str):\n        self.api_key = api_key\n        self.base_url = base_url\n        # 确保 temperature 在有效范围内\n        self.temperature = min(max(0.0, temperature), 1.0)  # 限制在 0-1 之间\n        # 使用 Updater 获取版本信息并设置请求头\n        from src.autoupdate.updater import Updater\n        updater = Updater()\n        version = updater.get_current_version()",
+        "detail": "kourichat.src.services.ai.image_recognition_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.services.ai.image_recognition_service",
+        "description": "kourichat.src.services.ai.image_recognition_service",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass ImageRecognitionService:\n    def __init__(self, api_key: str, base_url: str, temperature: float, model: str):\n        self.api_key = api_key\n        self.base_url = base_url\n        # 确保 temperature 在有效范围内\n        self.temperature = min(max(0.0, temperature), 1.0)  # 限制在 0-1 之间\n        # 使用 Updater 获取版本信息并设置请求头\n        from src.autoupdate.updater import Updater\n        updater = Updater()",
+        "detail": "kourichat.src.services.ai.image_recognition_service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMService",
+        "kind": 6,
+        "importPath": "kourichat.src.services.ai.llm_service",
+        "description": "kourichat.src.services.ai.llm_service",
+        "peekOfCode": "class LLMService:\n    def __init__(self, api_key: str, base_url: str, model: str,\n                 max_token: int, temperature: float, max_groups: int):\n        \"\"\"\n        强化版AI服务初始化\n        :param api_key: API认证密钥\n        :param base_url: API基础URL\n        :param model: 使用的模型名称\n        :param max_token: 最大token限制\n        :param temperature: 创造性参数(0~2)",
+        "detail": "kourichat.src.services.ai.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.services.ai.llm_service",
+        "description": "kourichat.src.services.ai.llm_service",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass LLMService:\n    def __init__(self, api_key: str, base_url: str, model: str,\n                 max_token: int, temperature: float, max_groups: int):\n        \"\"\"\n        强化版AI服务初始化\n        :param api_key: API认证密钥\n        :param base_url: API基础URL\n        :param model: 使用的模型名称\n        :param max_token: 最大token限制",
+        "detail": "kourichat.src.services.ai.llm_service",
+        "documentation": {}
+    },
+    {
+        "label": "NetworkSearchService",
+        "kind": 6,
+        "importPath": "kourichat.src.services.ai.network_search_service",
+        "description": "kourichat.src.services.ai.network_search_service",
+        "peekOfCode": "class NetworkSearchService:\n    def __init__(self, llm_service: LLMService):\n        \"\"\"\n        初始化网络搜索服务\n        :param llm_service: LLM服务实例，用于调用API\n        \"\"\"\n        self.llm_service = llm_service\n        # 使用全局配置变量获取API密钥和基础URL\n        from src.config import NETWORK_SEARCH_API_KEY, DEEPSEEK_API_KEY\n        # 如果网络搜索API密钥为空，则使用LLM的API密钥",
+        "detail": "kourichat.src.services.ai.network_search_service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.services.ai.network_search_service",
+        "description": "kourichat.src.services.ai.network_search_service",
+        "peekOfCode": "logger = logging.getLogger('main')\nclass NetworkSearchService:\n    def __init__(self, llm_service: LLMService):\n        \"\"\"\n        初始化网络搜索服务\n        :param llm_service: LLM服务实例，用于调用API\n        \"\"\"\n        self.llm_service = llm_service\n        # 使用全局配置变量获取API密钥和基础URL\n        from src.config import NETWORK_SEARCH_API_KEY, DEEPSEEK_API_KEY",
+        "detail": "kourichat.src.services.ai.network_search_service",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMessage",
+        "kind": 6,
+        "importPath": "kourichat.src.services.database",
+        "description": "kourichat.src.services.database",
+        "peekOfCode": "class ChatMessage(Base):\n    __tablename__ = 'chat_messages'\n    id = Column(Integer, primary_key=True)\n    sender_id = Column(String(100))  # 发送者微信ID\n    sender_name = Column(String(100))  # 发送者昵称\n    message = Column(Text)  # 发送的消息\n    reply = Column(Text)  # 机器人的回复\n    created_at = Column(DateTime, default=datetime.now)\n# 创建数据库表\nBase.metadata.create_all(engine)",
+        "detail": "kourichat.src.services.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "kourichat.src.services.database",
+        "description": "kourichat.src.services.database",
+        "peekOfCode": "Base = declarative_base()\n# 获取项目根目录\nproject_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\ndb_path = os.path.join(project_root, 'data', 'database', 'chat_history.db')\n# 确保数据库目录存在\nos.makedirs(os.path.dirname(db_path), exist_ok=True)\n# 创建数据库连接\nengine = create_engine(f'sqlite:///{db_path}')\n# 创建会话工厂\nSession = sessionmaker(bind=engine)",
+        "detail": "kourichat.src.services.database",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": "kourichat.src.services.database",
+        "description": "kourichat.src.services.database",
+        "peekOfCode": "project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\ndb_path = os.path.join(project_root, 'data', 'database', 'chat_history.db')\n# 确保数据库目录存在\nos.makedirs(os.path.dirname(db_path), exist_ok=True)\n# 创建数据库连接\nengine = create_engine(f'sqlite:///{db_path}')\n# 创建会话工厂\nSession = sessionmaker(bind=engine)\nclass ChatMessage(Base):\n    __tablename__ = 'chat_messages'",
+        "detail": "kourichat.src.services.database",
+        "documentation": {}
+    },
+    {
+        "label": "db_path",
+        "kind": 5,
+        "importPath": "kourichat.src.services.database",
+        "description": "kourichat.src.services.database",
+        "peekOfCode": "db_path = os.path.join(project_root, 'data', 'database', 'chat_history.db')\n# 确保数据库目录存在\nos.makedirs(os.path.dirname(db_path), exist_ok=True)\n# 创建数据库连接\nengine = create_engine(f'sqlite:///{db_path}')\n# 创建会话工厂\nSession = sessionmaker(bind=engine)\nclass ChatMessage(Base):\n    __tablename__ = 'chat_messages'\n    id = Column(Integer, primary_key=True)",
+        "detail": "kourichat.src.services.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "kourichat.src.services.database",
+        "description": "kourichat.src.services.database",
+        "peekOfCode": "engine = create_engine(f'sqlite:///{db_path}')\n# 创建会话工厂\nSession = sessionmaker(bind=engine)\nclass ChatMessage(Base):\n    __tablename__ = 'chat_messages'\n    id = Column(Integer, primary_key=True)\n    sender_id = Column(String(100))  # 发送者微信ID\n    sender_name = Column(String(100))  # 发送者昵称\n    message = Column(Text)  # 发送的消息\n    reply = Column(Text)  # 机器人的回复",
+        "detail": "kourichat.src.services.database",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "kind": 5,
+        "importPath": "kourichat.src.services.database",
+        "description": "kourichat.src.services.database",
+        "peekOfCode": "Session = sessionmaker(bind=engine)\nclass ChatMessage(Base):\n    __tablename__ = 'chat_messages'\n    id = Column(Integer, primary_key=True)\n    sender_id = Column(String(100))  # 发送者微信ID\n    sender_name = Column(String(100))  # 发送者昵称\n    message = Column(Text)  # 发送的消息\n    reply = Column(Text)  # 机器人的回复\n    created_at = Column(DateTime, default=datetime.now)\n# 创建数据库表",
+        "detail": "kourichat.src.services.database",
+        "documentation": {}
+    },
+    {
+        "label": "CleanupUtils",
+        "kind": 6,
+        "importPath": "kourichat.src.utils.cleanup",
+        "description": "kourichat.src.utils.cleanup",
+        "peekOfCode": "class CleanupUtils:\n    def __init__(self, root_dir: str):\n        self.root_dir = root_dir\n        self.wxauto_dir = os.path.join(root_dir, \"wxautoFiles\")\n        self.screenshot_dir = os.path.join(root_dir, \"screenshot\")\n    def cleanup_wxauto_files(self):\n        \"\"\"清理wxauto文件夹\"\"\"\n        try:\n            logger.info(f\"正在检查目录: {self.wxauto_dir}\")\n            if not os.path.exists(self.wxauto_dir):",
+        "detail": "kourichat.src.utils.cleanup",
+        "documentation": {}
+    },
+    {
+        "label": "cleanup_pycache",
+        "kind": 2,
+        "importPath": "kourichat.src.utils.cleanup",
+        "description": "kourichat.src.utils.cleanup",
+        "peekOfCode": "def cleanup_pycache():\n    \"\"\"递归清理所有__pycache__文件夹\"\"\"\n    root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\n    for root, dirs, files in os.walk(root_dir):\n        if '__pycache__' in dirs:\n            pycache_path = os.path.join(root, '__pycache__')\n            try:\n                shutil.rmtree(pycache_path)\n                logger.info(f\"已清理: {pycache_path}\")\n            except Exception as e:",
+        "detail": "kourichat.src.utils.cleanup",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.utils.cleanup",
+        "description": "kourichat.src.utils.cleanup",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass CleanupUtils:\n    def __init__(self, root_dir: str):\n        self.root_dir = root_dir\n        self.wxauto_dir = os.path.join(root_dir, \"wxautoFiles\")\n        self.screenshot_dir = os.path.join(root_dir, \"screenshot\")\n    def cleanup_wxauto_files(self):\n        \"\"\"清理wxauto文件夹\"\"\"\n        try:\n            logger.info(f\"正在检查目录: {self.wxauto_dir}\")",
+        "detail": "kourichat.src.utils.cleanup",
+        "documentation": {}
+    },
+    {
+        "label": "print_status",
+        "kind": 2,
+        "importPath": "kourichat.src.utils.console",
+        "description": "kourichat.src.utils.console",
+        "peekOfCode": "def print_status(message: str, status: str = \"info\", icon: str = \"\"):\n    \"\"\"\n    打印带颜色和表情的状态消息\n    Args:\n        message (str): 要打印的消息\n        status (str): 状态类型 (\"success\", \"info\", \"warning\", \"error\")\n        icon (str): 消息前的图标\n    \"\"\"\n    try:\n        colors = {",
+        "detail": "kourichat.src.utils.console",
+        "documentation": {}
+    },
+    {
+        "label": "print_banner",
+        "kind": 2,
+        "importPath": "kourichat.src.utils.console",
+        "description": "kourichat.src.utils.console",
+        "peekOfCode": "def print_banner():\n    \"\"\"\n    打印程序启动横幅\n    \"\"\"\n    try:\n        banner = f\"\"\"\n{Fore.CYAN}\n╔══════════════════════════════════════════════╗\n║              KouriChat - AI Chat             ║\n║          Created by KouriChat Team           ║",
+        "detail": "kourichat.src.utils.console",
+        "documentation": {}
+    },
+    {
+        "label": "LoggerConfig",
+        "kind": 6,
+        "importPath": "kourichat.src.utils.logger",
+        "description": "kourichat.src.utils.logger",
+        "peekOfCode": "class LoggerConfig:\n    def __init__(self, root_dir: str):\n        self.root_dir = root_dir\n        self.log_dir = os.path.join(root_dir, \"logs\")\n        self.ensure_log_dir()\n    def ensure_log_dir(self):\n        \"\"\"确保日志目录存在\"\"\"\n        if not os.path.exists(self.log_dir):\n            os.makedirs(self.log_dir)\n    def get_log_file(self):",
+        "detail": "kourichat.src.utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "parse_md_content",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def parse_md_content(content):\n    \"\"\"解析markdown内容为字典格式\"\"\"\n    sections = {\n        '任务': 'task',\n        '角色': 'role',\n        '外表': 'appearance',\n        '经历': 'experience',\n        '性格': 'personality',\n        '经典台词': 'classic_lines',\n        '喜好': 'preferences',",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "get_available_avatars",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def get_available_avatars():\n    \"\"\"获取所有可用的人设列表\"\"\"\n    try:\n        if not AVATARS_DIR.exists():\n            return jsonify({'status': 'success', 'avatars': []})\n        avatars = [d.name for d in AVATARS_DIR.iterdir() if d.is_dir()]\n        return jsonify({'status': 'success', 'avatars': avatars})\n    except Exception as e:\n        return jsonify({'status': 'error', 'message': str(e)})\n@avatar_bp.route('/load_avatar_content')",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "load_avatar_content",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def load_avatar_content():\n    \"\"\"加载指定人设的内容\"\"\"\n    avatar = request.args.get('avatar')\n    if not avatar:\n        return jsonify({'status': 'error', 'message': '未指定人设名称'})\n    try:\n        avatar_dir = AVATARS_DIR / avatar\n        avatar_file = avatar_dir / 'avatar.md'\n        if not avatar_file.exists():\n            return jsonify({'status': 'error', 'message': '人设文件不存在'})",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "create_avatar",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def create_avatar():\n    \"\"\"创建新的人设\"\"\"\n    try:\n        data = request.get_json()\n        avatar_name = data.get('avatar_name')\n        if not avatar_name:\n            return jsonify({'status': 'error', 'message': '未提供人设名称'})\n        # 创建人设目录\n        avatar_dir = AVATARS_DIR / avatar_name\n        if avatar_dir.exists():",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "delete_avatar",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def delete_avatar():\n    \"\"\"删除人设\"\"\"\n    try:\n        data = request.get_json()\n        avatar_name = data.get('avatar_name')\n        if not avatar_name:\n            return jsonify({'status': 'error', 'message': '未提供人设名称'})\n        avatar_dir = AVATARS_DIR / avatar_name\n        if not avatar_dir.exists():\n            return jsonify({'status': 'error', 'message': '人设不存在'})",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "save_avatar",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def save_avatar():\n    \"\"\"保存人设设定\"\"\"\n    data = request.get_json()\n    avatar_name = data.get('avatar')\n    if not avatar_name:\n        return jsonify({'status': 'error', 'message': '未提供人设名称'})\n    try:\n        avatar_dir = AVATARS_DIR / avatar_name\n        avatar_file = avatar_dir / 'avatar.md'\n        if not avatar_dir.exists():",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "save_avatar_raw",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def save_avatar_raw():\n    \"\"\"保存原始Markdown内容\"\"\"\n    try:\n        data = request.get_json()\n        avatar_name = data.get('avatar')\n        content = data.get('content')\n        if not avatar_name:\n            return jsonify({'status': 'error', 'message': '未提供人设名称'})\n        if content is None:\n            return jsonify({'status': 'error', 'message': '未提供内容'})",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "load_core_memory",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def load_core_memory():\n    \"\"\"加载角色的核心记忆内容\"\"\"\n    try:\n        avatar_name = request.args.get('avatar')\n        user_id = request.args.get('user_id', 'default')  # 添加用户ID参数，默认为default\n        if not avatar_name:\n            return jsonify({'status': 'error', 'message': '未提供角色名称'})\n        # 修改为用户特定的记忆路径\n        memory_path = AVATARS_DIR / avatar_name / 'memory' / user_id / 'core_memory.json'\n        # 如果记忆文件不存在，则创建目录结构",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "save_core_memory",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def save_core_memory():\n    \"\"\"保存角色的核心记忆内容\"\"\"\n    try:\n        data = request.get_json()\n        avatar_name = data.get('avatar')\n        user_id = data.get('user_id', 'default')  # 添加用户ID参数，默认为default\n        content = data.get('content', '')\n        if not avatar_name:\n            return jsonify({'status': 'error', 'message': '未提供角色名称'})\n        # 确保记忆目录存在",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "load_short_memory",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def load_short_memory():\n    \"\"\"加载角色的短期记忆内容\"\"\"\n    try:\n        avatar_name = request.args.get('avatar')\n        user_id = request.args.get('user_id', 'default')  # 添加用户ID参数，默认为default\n        if not avatar_name:\n            return jsonify({'status': 'error', 'message': '未提供角色名称'})\n        memory_path = AVATARS_DIR / avatar_name / 'memory' / user_id / 'short_memory.json'\n        # 如果记忆文件不存在，则返回空内容\n        if not memory_path.exists():",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "save_short_memory",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def save_short_memory():\n    \"\"\"保存角色的短期记忆内容\"\"\"\n    try:\n        data = request.get_json()\n        avatar_name = data.get('avatar')\n        user_id = data.get('user_id', 'default')  # 添加用户ID参数，默认为default\n        conversations = data.get('conversations', [])\n        if not avatar_name:\n            return jsonify({'status': 'error', 'message': '未提供角色名称'})\n        # 确保记忆目录存在",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "clear_short_memory",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def clear_short_memory():\n    \"\"\"清空角色的短期记忆内容\"\"\"\n    try:\n        data = request.get_json()\n        avatar_name = data.get('avatar')\n        user_id = data.get('user_id', 'default')  # 添加用户ID参数，默认为default\n        if not avatar_name:\n            return jsonify({'status': 'error', 'message': '未提供角色名称'})\n        # 确保记忆目录存在\n        memory_dir = AVATARS_DIR / avatar_name / 'memory' / user_id",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "clear_core_memory",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def clear_core_memory():\n    \"\"\"清空角色的核心记忆内容\"\"\"\n    try:\n        data = request.get_json()\n        avatar_name = data.get('avatar')\n        user_id = data.get('user_id', 'default')  # 添加用户ID参数，默认为default\n        if not avatar_name:\n            return jsonify({'status': 'error', 'message': '未提供角色名称'})\n        # 确保记忆目录存在\n        memory_dir = AVATARS_DIR / avatar_name / 'memory' / user_id",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "get_avatar_users",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "def get_avatar_users():\n    \"\"\"获取指定角色的所有用户目录\"\"\"\n    try:\n        avatar_name = request.args.get('avatar')\n        if not avatar_name:\n            return jsonify({'status': 'error', 'message': '未提供角色名称'})\n        # 检查该角色的记忆目录\n        memory_dir = AVATARS_DIR / avatar_name / 'memory'\n        if not memory_dir.exists():\n            memory_dir.mkdir(exist_ok=True)",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "avatar_bp",
+        "kind": 5,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "avatar_bp = Blueprint('avatar', __name__)\nAVATARS_DIR = Path('data/avatars')\ndef parse_md_content(content):\n    \"\"\"解析markdown内容为字典格式\"\"\"\n    sections = {\n        '任务': 'task',\n        '角色': 'role',\n        '外表': 'appearance',\n        '经历': 'experience',\n        '性格': 'personality',",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "AVATARS_DIR",
+        "kind": 5,
+        "importPath": "kourichat.src.webui.routes.avatar",
+        "description": "kourichat.src.webui.routes.avatar",
+        "peekOfCode": "AVATARS_DIR = Path('data/avatars')\ndef parse_md_content(content):\n    \"\"\"解析markdown内容为字典格式\"\"\"\n    sections = {\n        '任务': 'task',\n        '角色': 'role',\n        '外表': 'appearance',\n        '经历': 'experience',\n        '性格': 'personality',\n        '经典台词': 'classic_lines',",
+        "detail": "kourichat.src.webui.routes.avatar",
+        "documentation": {}
+    },
+    {
+        "label": "read_avatar_sections",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.avatar_manager",
+        "description": "kourichat.src.webui.avatar_manager",
+        "peekOfCode": "def read_avatar_sections(file_path):\n    sections = {\n        'task': '',\n        'role': '',\n        'appearance': '',\n        'experience': '',\n        'personality': '',\n        'classic_lines': '',\n        'preferences': '',\n        'notes': ''",
+        "detail": "kourichat.src.webui.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "save_avatar_sections",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.avatar_manager",
+        "description": "kourichat.src.webui.avatar_manager",
+        "peekOfCode": "def save_avatar_sections(file_path, sections):\n    \"\"\"保存人设设定到文件\"\"\"\n    try:\n        content = []\n        for section, text in sections.items():\n            # 将section名称首字母大写\n            section_name = section.replace('_', ' ').title()\n            content.append(f\"# {section_name}\")\n            content.append(text.strip())\n            content.append(\"\")  # 添加空行分隔",
+        "detail": "kourichat.src.webui.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "create_avatar",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.avatar_manager",
+        "description": "kourichat.src.webui.avatar_manager",
+        "peekOfCode": "def create_avatar(avatar_name):\n    \"\"\"创建新的人设目录和文件\"\"\"\n    try:\n        avatar_dir = AVATARS_DIR / avatar_name\n        if avatar_dir.exists():\n            return False, \"人设已存在\"\n        # 创建目录结构\n        avatar_dir.mkdir(parents=True, exist_ok=True)\n        (avatar_dir / 'emojis').mkdir(exist_ok=True)\n        # 创建avatar.md文件",
+        "detail": "kourichat.src.webui.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "delete_avatar",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.avatar_manager",
+        "description": "kourichat.src.webui.avatar_manager",
+        "peekOfCode": "def delete_avatar(avatar_name):\n    \"\"\"删除人设\"\"\"\n    try:\n        avatar_dir = AVATARS_DIR / avatar_name\n        if not avatar_dir.exists():\n            return False, \"人设不存在\"\n        shutil.rmtree(avatar_dir)\n        return True, \"人设删除成功\"\n    except Exception as e:\n        return False, str(e)",
+        "detail": "kourichat.src.webui.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_available_avatars",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.avatar_manager",
+        "description": "kourichat.src.webui.avatar_manager",
+        "peekOfCode": "def get_available_avatars():\n    \"\"\"获取所有可用的人设列表\"\"\"\n    try:\n        if not AVATARS_DIR.exists():\n            return []\n        return [d.name for d in AVATARS_DIR.iterdir() if d.is_dir()]\n    except Exception as e:\n        print(f\"Error getting available avatars: {e}\")\n        return []\ndef get_avatar_file_path(avatar_name):",
+        "detail": "kourichat.src.webui.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_avatar_file_path",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.avatar_manager",
+        "description": "kourichat.src.webui.avatar_manager",
+        "peekOfCode": "def get_avatar_file_path(avatar_name):\n    \"\"\"获取人设文件路径\"\"\"\n    return AVATARS_DIR / avatar_name / 'avatar.md'",
+        "detail": "kourichat.src.webui.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "AVATARS_DIR",
+        "kind": 5,
+        "importPath": "kourichat.src.webui.avatar_manager",
+        "description": "kourichat.src.webui.avatar_manager",
+        "peekOfCode": "AVATARS_DIR = Path('data/avatars')\ndef read_avatar_sections(file_path):\n    sections = {\n        'task': '',\n        'role': '',\n        'appearance': '',\n        'experience': '',\n        'personality': '',\n        'classic_lines': '',\n        'preferences': '',",
+        "detail": "kourichat.src.webui.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_configs",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.run_config_web",
+        "description": "kourichat.src.webui.run_config_web",
+        "peekOfCode": "def get_all_configs():\n    \"\"\"获取所有最新的配置数据\"\"\"\n    try:\n        # 直接从配置文件读取所有配置数据\n        config_path = os.path.join(ROOT_DIR, 'src/config/config.json')\n        # 检查文件是否存在\n        if not os.path.exists(config_path):\n            logger.warning(f\"配置文件不存在: {config_path}\")\n            return jsonify({\n                \"status\": \"error\",",
+        "detail": "kourichat.src.webui.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "update_config_value",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.run_config_web",
+        "description": "kourichat.src.webui.run_config_web",
+        "peekOfCode": "def update_config_value(config_data, key, value):\n    \"\"\"更新配置值\"\"\"\n    logger.debug(f\"更新配置项: {key} = {value}\")\n    # 处理不同的配置项\n    if key == 'LISTEN_LIST':\n        # 确保是列表形式\n        if isinstance(value, str):\n            value = value.split(',')\n            # 过滤空值并去除前后空格\n            value = [v.strip() for v in value if v.strip()]",
+        "detail": "kourichat.src.webui.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "save_config",
+        "kind": 2,
+        "importPath": "kourichat.src.webui.run_config_web",
+        "description": "kourichat.src.webui.run_config_web",
+        "peekOfCode": "def save_config():\n    \"\"\"保存配置\"\"\"\n    try:\n        # 检查Content-Type\n        if not request.is_json:\n            return jsonify({\n                \"status\": \"error\",\n                \"message\": \"请求Content-Type必须是application/json\",\n                \"title\": \"错误\"\n            }), 415",
+        "detail": "kourichat.src.webui.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "click_wechat_buttons",
+        "kind": 2,
+        "importPath": "kourichat.src.Wechat_Login_Clicker.Wechat_Login_Clicker",
+        "description": "kourichat.src.Wechat_Login_Clicker.Wechat_Login_Clicker",
+        "peekOfCode": "def click_wechat_buttons():\n    # 获取微信窗口\n    hwnd = win32gui.FindWindow(None, \"微信\")\n    if hwnd == 0:\n        print(\"找不到微信登录窗口\")\n        return False\n    # 获取窗口位置和大小\n    left, top, right, bottom = win32gui.GetWindowRect(hwnd)\n    width = right - left\n    height = bottom - top",
+        "detail": "kourichat.src.Wechat_Login_Clicker.Wechat_Login_Clicker",
+        "documentation": {}
+    },
+    {
+        "label": "load_avatar",
+        "kind": 2,
+        "importPath": "kourichat.src.avatar_manager",
+        "description": "kourichat.src.avatar_manager",
+        "peekOfCode": "def load_avatar():\n    \"\"\"加载 avatar.md 内容\"\"\"\n    avatar_path = os.path.join(config.behavior.context.avatar_dir, 'avatar.md')\n    if not os.path.exists(avatar_path):\n        return jsonify({'status': 'error', 'message': '文件不存在'})\n    try:\n        with open(avatar_path, 'r', encoding='utf-8') as f:\n            content = f.read()\n        # 将内容分割成不同区域，使用英文键名以匹配前端\n        sections = {}",
+        "detail": "kourichat.src.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "save_avatar",
+        "kind": 2,
+        "importPath": "kourichat.src.avatar_manager",
+        "description": "kourichat.src.avatar_manager",
+        "peekOfCode": "def save_avatar():\n    \"\"\"保存 avatar.md 内容\"\"\"\n    data = request.json\n    print('接收到的数据:', data)  # 调试信息\n    defalut_avatar_name = config.behavior.context.avatar_dir.split('/')[-1]  # 默认人设名称\n    avatar_name = data.get('avatar', defalut_avatar_name)  # 获取人设名称\n    avatar_path = os.path.join(\n        os.path.dirname(config.behavior.context.avatar_dir),\n        avatar_name, \n        'avatar.md'",
+        "detail": "kourichat.src.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "edit_avatar",
+        "kind": 2,
+        "importPath": "kourichat.src.avatar_manager",
+        "description": "kourichat.src.avatar_manager",
+        "peekOfCode": "def edit_avatar():\n    \"\"\"角色设定页面\"\"\"\n    return render_template('edit_avatar.html', active_page='edit_avatar')",
+        "detail": "kourichat.src.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "avatar_manager",
+        "kind": 5,
+        "importPath": "kourichat.src.avatar_manager",
+        "description": "kourichat.src.avatar_manager",
+        "peekOfCode": "avatar_manager = Blueprint('avatar_manager', __name__)\n@avatar_manager.route('/load_avatar', methods=['GET'])\ndef load_avatar():\n    \"\"\"加载 avatar.md 内容\"\"\"\n    avatar_path = os.path.join(config.behavior.context.avatar_dir, 'avatar.md')\n    if not os.path.exists(avatar_path):\n        return jsonify({'status': 'error', 'message': '文件不存在'})\n    try:\n        with open(avatar_path, 'r', encoding='utf-8') as f:\n            content = f.read()",
+        "detail": "kourichat.src.avatar_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ChatBot",
+        "kind": 6,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "class ChatBot:\n    def __init__(self, message_handler, image_recognition_service, auto_sender, emoji_handler):\n        self.message_handler = message_handler\n        self.image_recognition_service = image_recognition_service\n        self.auto_sender = auto_sender\n        self.emoji_handler = emoji_handler\n        # 获取机器人的微信名称\n        self.wx = WeChat()\n        self.robot_name = self.wx.A_MyIcon.Name  # 使用Name属性而非方法\n        logger.info(f\"机器人名称: {self.robot_name}\")",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_logging",
+        "kind": 2,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "def initialize_logging():\n    \"\"\"初始化日志系统\"\"\"\n    global logger, listen_list\n    # 清除所有现有日志处理器\n    for handler in logging.root.handlers[:]:\n        logging.root.removeHandler(handler)\n    logger_config = LoggerConfig(root_dir)\n    logger = logger_config.setup_logger('main')\n    listen_list = config.user.listen_list\n# 消息队列接受消息时间间隔",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_services",
+        "kind": 2,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "def initialize_services():\n    \"\"\"初始化服务实例\"\"\"\n    global prompt_content, emoji_handler, image_handler, voice_handler, memory_service, content_generator\n    global message_handler, image_recognition_service, auto_sender, chat_bot, ROBOT_WX_NAME\n    # 读取提示文件\n    avatar_dir = os.path.join(root_dir, config.behavior.context.avatar_dir)\n    prompt_path = os.path.join(avatar_dir, \"avatar.md\")\n    if os.path.exists(prompt_path):\n        with open(prompt_path, \"r\", encoding=\"utf-8\") as file:\n            prompt_content = file.read()",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "message_listener",
+        "kind": 2,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "def message_listener():\n    # 使用全局变量\n    global chat_bot, ROBOT_WX_NAME, logger, wait\n    wx = None\n    last_window_check = 0\n    check_interval = 600\n    while not stop_event.is_set():\n        try:\n            current_time = time.time()\n            if wx is None or (current_time - last_window_check > check_interval):",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_wx_listener",
+        "kind": 2,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "def initialize_wx_listener():\n    \"\"\"\n    初始化微信监听，包含重试机制\n    \"\"\"\n    # 使用全局变量\n    global listen_list, logger\n    max_retries = 3\n    retry_delay = 2  # 秒\n    for attempt in range(max_retries):\n        try:",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_auto_tasks",
+        "kind": 2,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "def initialize_auto_tasks(message_handler):\n    \"\"\"初始化自动任务系统\"\"\"\n    print_status(\"初始化自动任务系统...\", \"info\", \"CLOCK\")\n    try:\n        # 导入config变量\n        from src.config import config\n        # 创建AutoTasker实例\n        auto_tasker = AutoTasker(message_handler)\n        print_status(\"创建AutoTasker实例成功\", \"success\", \"CHECK\")\n        # 清空现有任务",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "switch_avatar",
+        "kind": 2,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "def switch_avatar(new_avatar_name):\n    # 使用全局变量\n    global emoji_handler, message_handler, root_dir\n    # 导入config变量\n    from src.config import config\n    # 更新配置\n    config.behavior.context.avatar_dir = f\"avatars/{new_avatar_name}\"\n    # 重新初始化 emoji_handler\n    emoji_handler = EmojiHandler(root_dir)\n    # 更新 message_handler 中的 emoji_handler",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "def main():\n    # 初始化变量\n    listener_thread = None\n    try:\n        # 初始化日志系统\n        initialize_logging()\n        # 初始化服务实例\n        initialize_services()\n        # 设置wxauto日志路径\n        automation_log_dir = os.path.join(root_dir, \"logs\", \"automation\")",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "stop_event",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "stop_event = threading.Event()\n# 获取项目根目录\nroot_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# 检查并初始化配置文件\nconfig_path = os.path.join(root_dir, 'src', 'config', 'config.json')\nconfig_template_path = os.path.join(root_dir, 'src', 'config', 'config.json.template')\nif not os.path.exists(config_path) and os.path.exists(config_template_path):\n    logger = logging.getLogger('main')\n    logger.info(\"配置文件不存在，正在从模板创建...\")\n    shutil.copy2(config_template_path, config_path)",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "root_dir",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# 检查并初始化配置文件\nconfig_path = os.path.join(root_dir, 'src', 'config', 'config.json')\nconfig_template_path = os.path.join(root_dir, 'src', 'config', 'config.json.template')\nif not os.path.exists(config_path) and os.path.exists(config_template_path):\n    logger = logging.getLogger('main')\n    logger.info(\"配置文件不存在，正在从模板创建...\")\n    shutil.copy2(config_template_path, config_path)\n    logger.info(f\"已从模板创建配置文件: {config_path}\")\n# 初始化colorama",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "config_path",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "config_path = os.path.join(root_dir, 'src', 'config', 'config.json')\nconfig_template_path = os.path.join(root_dir, 'src', 'config', 'config.json.template')\nif not os.path.exists(config_path) and os.path.exists(config_template_path):\n    logger = logging.getLogger('main')\n    logger.info(\"配置文件不存在，正在从模板创建...\")\n    shutil.copy2(config_template_path, config_path)\n    logger.info(f\"已从模板创建配置文件: {config_path}\")\n# 初始化colorama\ninit()\n# 全局变量",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "config_template_path",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "config_template_path = os.path.join(root_dir, 'src', 'config', 'config.json.template')\nif not os.path.exists(config_path) and os.path.exists(config_template_path):\n    logger = logging.getLogger('main')\n    logger.info(\"配置文件不存在，正在从模板创建...\")\n    shutil.copy2(config_template_path, config_path)\n    logger.info(f\"已从模板创建配置文件: {config_path}\")\n# 初始化colorama\ninit()\n# 全局变量\nlogger = None",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "logger = None\nlisten_list = []\ndef initialize_logging():\n    \"\"\"初始化日志系统\"\"\"\n    global logger, listen_list\n    # 清除所有现有日志处理器\n    for handler in logging.root.handlers[:]:\n        logging.root.removeHandler(handler)\n    logger_config = LoggerConfig(root_dir)\n    logger = logger_config.setup_logger('main')",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "listen_list",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "listen_list = []\ndef initialize_logging():\n    \"\"\"初始化日志系统\"\"\"\n    global logger, listen_list\n    # 清除所有现有日志处理器\n    for handler in logging.root.handlers[:]:\n        logging.root.removeHandler(handler)\n    logger_config = LoggerConfig(root_dir)\n    logger = logger_config.setup_logger('main')\n    listen_list = config.user.listen_list",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "wait",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "wait = 1\nclass ChatBot:\n    def __init__(self, message_handler, image_recognition_service, auto_sender, emoji_handler):\n        self.message_handler = message_handler\n        self.image_recognition_service = image_recognition_service\n        self.auto_sender = auto_sender\n        self.emoji_handler = emoji_handler\n        # 获取机器人的微信名称\n        self.wx = WeChat()\n        self.robot_name = self.wx.A_MyIcon.Name  # 使用Name属性而非方法",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_content",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "prompt_content = \"\"\nemoji_handler = None\nimage_handler = None\nvoice_handler = None\nmemory_service = None\ncontent_generator = None\nmessage_handler = None\nimage_recognition_service = None\nauto_sender = None\nchat_bot = None",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "emoji_handler",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "emoji_handler = None\nimage_handler = None\nvoice_handler = None\nmemory_service = None\ncontent_generator = None\nmessage_handler = None\nimage_recognition_service = None\nauto_sender = None\nchat_bot = None\nROBOT_WX_NAME = \"\"",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "image_handler",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "image_handler = None\nvoice_handler = None\nmemory_service = None\ncontent_generator = None\nmessage_handler = None\nimage_recognition_service = None\nauto_sender = None\nchat_bot = None\nROBOT_WX_NAME = \"\"\ndef initialize_services():",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "voice_handler",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "voice_handler = None\nmemory_service = None\ncontent_generator = None\nmessage_handler = None\nimage_recognition_service = None\nauto_sender = None\nchat_bot = None\nROBOT_WX_NAME = \"\"\ndef initialize_services():\n    \"\"\"初始化服务实例\"\"\"",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "memory_service",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "memory_service = None\ncontent_generator = None\nmessage_handler = None\nimage_recognition_service = None\nauto_sender = None\nchat_bot = None\nROBOT_WX_NAME = \"\"\ndef initialize_services():\n    \"\"\"初始化服务实例\"\"\"\n    global prompt_content, emoji_handler, image_handler, voice_handler, memory_service, content_generator",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "content_generator",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "content_generator = None\nmessage_handler = None\nimage_recognition_service = None\nauto_sender = None\nchat_bot = None\nROBOT_WX_NAME = \"\"\ndef initialize_services():\n    \"\"\"初始化服务实例\"\"\"\n    global prompt_content, emoji_handler, image_handler, voice_handler, memory_service, content_generator\n    global message_handler, image_recognition_service, auto_sender, chat_bot, ROBOT_WX_NAME",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "message_handler",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "message_handler = None\nimage_recognition_service = None\nauto_sender = None\nchat_bot = None\nROBOT_WX_NAME = \"\"\ndef initialize_services():\n    \"\"\"初始化服务实例\"\"\"\n    global prompt_content, emoji_handler, image_handler, voice_handler, memory_service, content_generator\n    global message_handler, image_recognition_service, auto_sender, chat_bot, ROBOT_WX_NAME\n    # 读取提示文件",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "image_recognition_service",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "image_recognition_service = None\nauto_sender = None\nchat_bot = None\nROBOT_WX_NAME = \"\"\ndef initialize_services():\n    \"\"\"初始化服务实例\"\"\"\n    global prompt_content, emoji_handler, image_handler, voice_handler, memory_service, content_generator\n    global message_handler, image_recognition_service, auto_sender, chat_bot, ROBOT_WX_NAME\n    # 读取提示文件\n    avatar_dir = os.path.join(root_dir, config.behavior.context.avatar_dir)",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "auto_sender",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "auto_sender = None\nchat_bot = None\nROBOT_WX_NAME = \"\"\ndef initialize_services():\n    \"\"\"初始化服务实例\"\"\"\n    global prompt_content, emoji_handler, image_handler, voice_handler, memory_service, content_generator\n    global message_handler, image_recognition_service, auto_sender, chat_bot, ROBOT_WX_NAME\n    # 读取提示文件\n    avatar_dir = os.path.join(root_dir, config.behavior.context.avatar_dir)\n    prompt_path = os.path.join(avatar_dir, \"avatar.md\")",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "chat_bot",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "chat_bot = None\nROBOT_WX_NAME = \"\"\ndef initialize_services():\n    \"\"\"初始化服务实例\"\"\"\n    global prompt_content, emoji_handler, image_handler, voice_handler, memory_service, content_generator\n    global message_handler, image_recognition_service, auto_sender, chat_bot, ROBOT_WX_NAME\n    # 读取提示文件\n    avatar_dir = os.path.join(root_dir, config.behavior.context.avatar_dir)\n    prompt_path = os.path.join(avatar_dir, \"avatar.md\")\n    if os.path.exists(prompt_path):",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "ROBOT_WX_NAME",
+        "kind": 5,
+        "importPath": "kourichat.src.main",
+        "description": "kourichat.src.main",
+        "peekOfCode": "ROBOT_WX_NAME = \"\"\ndef initialize_services():\n    \"\"\"初始化服务实例\"\"\"\n    global prompt_content, emoji_handler, image_handler, voice_handler, memory_service, content_generator\n    global message_handler, image_recognition_service, auto_sender, chat_bot, ROBOT_WX_NAME\n    # 读取提示文件\n    avatar_dir = os.path.join(root_dir, config.behavior.context.avatar_dir)\n    prompt_path = os.path.join(avatar_dir, \"avatar.md\")\n    if os.path.exists(prompt_path):\n        with open(prompt_path, \"r\", encoding=\"utf-8\") as file:",
+        "detail": "kourichat.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_system",
+        "kind": 2,
+        "importPath": "kourichat.run",
+        "description": "kourichat.run",
+        "peekOfCode": "def initialize_system():\n    \"\"\"初始化系统\"\"\"\n    try:\n        from src.utils.cleanup import cleanup_pycache\n        from src.main import main\n        from src.autoupdate.updater import Updater  # 导入更新器\n        print_banner()\n        print_status(\"系统初始化中...\", \"info\", \"LAUNCH\")\n        print(\"-\" * 50)\n        # 检查Python路径",
+        "detail": "kourichat.run",
+        "documentation": {}
+    },
+    {
+        "label": "sys.dont_write_bytecode",
+        "kind": 5,
+        "importPath": "kourichat.run",
+        "description": "kourichat.run",
+        "peekOfCode": "sys.dont_write_bytecode = True\n# 将项目根目录添加到Python路径\nroot_dir = os.path.dirname(os.path.abspath(__file__))\nsys.path.append(root_dir)\n# 将src目录添加到Python路径\nsrc_path = os.path.join(root_dir, 'src')\nsys.path.append(src_path)\ndef initialize_system():\n    \"\"\"初始化系统\"\"\"\n    try:",
+        "detail": "kourichat.run",
+        "documentation": {}
+    },
+    {
+        "label": "root_dir",
+        "kind": 5,
+        "importPath": "kourichat.run",
+        "description": "kourichat.run",
+        "peekOfCode": "root_dir = os.path.dirname(os.path.abspath(__file__))\nsys.path.append(root_dir)\n# 将src目录添加到Python路径\nsrc_path = os.path.join(root_dir, 'src')\nsys.path.append(src_path)\ndef initialize_system():\n    \"\"\"初始化系统\"\"\"\n    try:\n        from src.utils.cleanup import cleanup_pycache\n        from src.main import main",
+        "detail": "kourichat.run",
+        "documentation": {}
+    },
+    {
+        "label": "src_path",
+        "kind": 5,
+        "importPath": "kourichat.run",
+        "description": "kourichat.run",
+        "peekOfCode": "src_path = os.path.join(root_dir, 'src')\nsys.path.append(src_path)\ndef initialize_system():\n    \"\"\"初始化系统\"\"\"\n    try:\n        from src.utils.cleanup import cleanup_pycache\n        from src.main import main\n        from src.autoupdate.updater import Updater  # 导入更新器\n        print_banner()\n        print_status(\"系统初始化中...\", \"info\", \"LAUNCH\")",
+        "detail": "kourichat.run",
+        "documentation": {}
+    },
+    {
+        "label": "check_cloud_updates_on_startup",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def check_cloud_updates_on_startup():\n    try:\n        from src.autoupdate.updater import check_cloud_info\n        logger.info(\"应用启动时检查云端更新...\")\n        check_cloud_info()\n        logger.info(\"云端更新检查完成\")\n    except Exception as e:\n        logger.error(f\"检查云端更新失败: {e}\")\n# 启动一个后台线程来检查云端更新\nupdate_thread = threading.Thread(target=check_cloud_updates_on_startup)",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "get_available_avatars",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def get_available_avatars() -> List[str]:\n    \"\"\"获取可用的人设目录列表\"\"\"\n    avatar_base_dir = os.path.join(ROOT_DIR, \"data/avatars\")\n    if not os.path.exists(avatar_base_dir):\n        os.makedirs(avatar_base_dir, exist_ok=True)\n        logger.info(f\"创建人设目录: {avatar_base_dir}\")\n        return []\n    # 获取所有包含 avatar.md 和 emojis 目录的有效人设目录\n    avatars = []\n    for item in os.listdir(avatar_base_dir):",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "parse_config_groups",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def parse_config_groups() -> Dict[str, Dict[str, Any]]:\n    \"\"\"解析配置文件，将配置项按组分类\"\"\"\n    from src.config import config\n    try:\n        # 基础配置组\n        config_groups = {\n            \"基础配置\": {},\n            \"图像识别API配置\": {},\n            \"主动消息配置\": {},\n            \"消息配置\": {},",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def index():\n    \"\"\"重定向到控制台\"\"\"\n    return redirect(url_for('dashboard'))\ndef load_config_file():\n    \"\"\"从配置文件加载配置数据\"\"\"\n    try:\n        with open(config_path, 'r', encoding='utf-8') as f:\n            return json.load(f)\n    except Exception as e:\n        logger.error(f\"加载配置失败: {str(e)}\")",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "load_config_file",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def load_config_file():\n    \"\"\"从配置文件加载配置数据\"\"\"\n    try:\n        with open(config_path, 'r', encoding='utf-8') as f:\n            return json.load(f)\n    except Exception as e:\n        logger.error(f\"加载配置失败: {str(e)}\")\n        return {\"categories\": {}}\ndef save_config_file(config_data):\n    \"\"\"保存配置数据到配置文件\"\"\"",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "save_config_file",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def save_config_file(config_data):\n    \"\"\"保存配置数据到配置文件\"\"\"\n    try:\n        with open(config_path, 'w', encoding='utf-8') as f:\n            json.dump(config_data, f, ensure_ascii=False, indent=4)\n        return True\n    except Exception as e:\n        logger.error(f\"保存配置失败: {str(e)}\")\n        return False\ndef reinitialize_tasks():",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "reinitialize_tasks",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def reinitialize_tasks():\n    \"\"\"重新初始化定时任务\"\"\"\n    try:\n        # 直接修改配置文件，不需要重新初始化任务\n        # 因为任务会在主程序启动时自动加载\n        logger.info(\"配置已更新，任务将在主程序下次启动时生效\")\n        return True\n    except Exception as e:\n        logger.error(f\"更新任务配置失败: {str(e)}\")\n        return False",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "save_config",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def save_config():\n    \"\"\"保存配置\"\"\"\n    try:\n        # 检查Content-Type\n        if not request.is_json:\n            return jsonify({\n                \"status\": \"error\",\n                \"message\": \"请求Content-Type必须是application/json\",\n                \"title\": \"错误\"\n            }), 415",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "update_config_value",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def update_config_value(config_data, key, value):\n    \"\"\"更新配置值到正确的位置\"\"\"\n    try:\n        # 配置项映射表 - 修正路径以匹配实际配置结构\n        mapping = {\n            'LISTEN_LIST': ['categories', 'user_settings', 'settings', 'listen_list', 'value'],\n            'GROUP_CHAT_CONFIG': ['categories', 'user_settings', 'settings', 'group_chat_config', 'value'],\n            'DEEPSEEK_BASE_URL': ['categories', 'llm_settings', 'settings', 'base_url', 'value'],\n            'MODEL': ['categories', 'llm_settings', 'settings', 'model', 'value'],\n            'DEEPSEEK_API_KEY': ['categories', 'llm_settings', 'settings', 'api_key', 'value'],",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "upload_background",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def upload_background():\n    if 'background' not in request.files:\n        return jsonify({\"status\": \"error\", \"message\": \"没有选择文件\"})\n    file = request.files['background']\n    if file.filename == '':\n        return jsonify({\"status\": \"error\", \"message\": \"没有选择文件\"})\n    # 确保 filename 不为 None\n    if file.filename is None:\n        return jsonify({\"status\": \"error\", \"message\": \"文件名无效\"})\n    filename = secure_filename(file.filename)",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "background_image",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def background_image(filename):\n    return send_from_directory(app.config['UPLOAD_FOLDER'], filename)\n# 添加获取背景图片路由\n@app.route('/get_background')\ndef get_background():\n    \"\"\"获取当前背景图片\"\"\"\n    try:\n        # 获取背景图片目录中的第一个文件\n        files = os.listdir(app.config['UPLOAD_FOLDER'])\n        if files:",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "get_background",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def get_background():\n    \"\"\"获取当前背景图片\"\"\"\n    try:\n        # 获取背景图片目录中的第一个文件\n        files = os.listdir(app.config['UPLOAD_FOLDER'])\n        if files:\n            # 返回找到的第一个图片\n            return jsonify({\n                \"status\": \"success\",\n                \"path\": f\"/background_image/{files[0]}\"",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "load_config",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def load_config():\n    \"\"\"在每次请求之前加载配置\"\"\"\n    try:\n        g.config_data = load_config_file()\n    except Exception as e:\n        logger.error(f\"加载配置失败: {str(e)}\")\n@app.route('/dashboard')\ndef dashboard():\n    global announcement_shown_this_instance # 引用全局标记\n    if not session.get('logged_in'):",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def dashboard():\n    global announcement_shown_this_instance # 引用全局标记\n    if not session.get('logged_in'):\n        return redirect(url_for('login'))\n    # 决定本次请求是否需要显示公告\n    show_announcement_now = not announcement_shown_this_instance\n    if show_announcement_now:\n        announcement_shown_this_instance = True # 标记为已显示\n    # 使用 g 中的配置数据 (如果之前有)\n    config_groups = g.config_data.get('categories', {})",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "system_info",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def system_info():\n    \"\"\"获取系统信息\"\"\"\n    try:\n        # 创建静态变量存储上次的值\n        if not hasattr(system_info, 'last_bytes'):\n            system_info.last_bytes = {\n                'sent': 0,\n                'recv': 0,\n                'time': time.time()\n            }",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "check_update",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def check_update():\n    \"\"\"检查更新\"\"\"\n    try:\n        # 使用已导入的 Updater 类\n        updater = Updater()\n        result = updater.check_for_updates()\n        return jsonify({\n            'status': 'success',\n            'has_update': result.get('has_update', False),\n            'console_output': result['output'],",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_update",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def confirm_update():\n    \"\"\"确认是否更新\"\"\"\n    try:\n        choice = (request.json or {}).get('choice', '').lower()\n        logger.info(f\"收到用户更新选择: {choice}\")\n        if choice in ('y', 'yes', '是', '确认', '确定'):\n            logger.info(\"用户确认更新，开始执行更新过程\")\n            # 使用已导入的 Updater 类\n            updater = Updater()\n            result = updater.update(",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "start_bot_process",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def start_bot_process():\n    \"\"\"启动机器人进程，返回(成功状态, 消息)\"\"\"\n    global bot_process, bot_start_time, job_object\n    try:\n        if bot_process and bot_process.poll() is None:\n            return False, \"机器人已在运行中\"\n        # 清空之前的日志\n        clear_bot_logs()\n        # 设置环境变量\n        env = os.environ.copy()",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "start_log_reading_thread",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def start_log_reading_thread():\n    \"\"\"启动日志读取线程\"\"\"\n    def read_output():\n        try:\n            while bot_process and bot_process.poll() is None:\n                if bot_process.stdout:\n                    line = bot_process.stdout.readline()\n                    if line:\n                        try:\n                            # 尝试解码并清理日志内容",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "get_bot_uptime",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def get_bot_uptime():\n    \"\"\"获取机器人运行时间\"\"\"\n    if not bot_start_time or not bot_process or bot_process.poll() is not None:\n        return \"0分钟\"\n    delta = datetime.datetime.now() - bot_start_time\n    total_seconds = int(delta.total_seconds())\n    hours = total_seconds // 3600\n    minutes = (total_seconds % 3600) // 60\n    seconds = total_seconds % 60\n    if hours > 0:",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "start_bot",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def start_bot():\n    \"\"\"启动机器人\"\"\"\n    success, message = start_bot_process()\n    return jsonify({\n        'status': 'success' if success else 'error',\n        'message': message\n    })\n@app.route('/get_bot_logs')\ndef get_bot_logs():\n    \"\"\"获取机器人日志\"\"\"",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "get_bot_logs",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def get_bot_logs():\n    \"\"\"获取机器人日志\"\"\"\n    logs = []\n    while not bot_logs.empty():\n        logs.append(bot_logs.get())\n    return jsonify({\n        'status': 'success',\n        'logs': logs,\n        'uptime': get_bot_uptime(),\n        'is_running': bot_process is not None and bot_process.poll() is None",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "terminate_bot_process",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def terminate_bot_process(force=False):\n    \"\"\"终止机器人进程的通用函数\"\"\"\n    global bot_process, bot_start_time\n    if not bot_process or bot_process.poll() is not None:\n        return False, \"机器人未在运行\"\n    try:\n        # 首先尝试正常终止进程\n        bot_process.terminate()\n        # 等待进程结束\n        try:",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "clear_bot_logs",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def clear_bot_logs():\n    \"\"\"清空机器人日志队列\"\"\"\n    while not bot_logs.empty():\n        bot_logs.get()\n@app.route('/stop_bot')\ndef stop_bot():\n    \"\"\"停止机器人\"\"\"\n    success, message = terminate_bot_process(force=True)\n    return jsonify({\n        'status': 'success' if success else 'error',",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "stop_bot",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def stop_bot():\n    \"\"\"停止机器人\"\"\"\n    success, message = terminate_bot_process(force=True)\n    return jsonify({\n        'status': 'success' if success else 'error',\n        'message': message\n    })\n@app.route('/config')\ndef config():\n    \"\"\"配置页面\"\"\"",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def config():\n    \"\"\"配置页面\"\"\"\n    if not session.get('logged_in'):\n        return redirect(url_for('login'))\n    # 直接从配置文件读取任务数据\n    tasks = []\n    try:\n        config_path = os.path.join(ROOT_DIR, 'src/config/config.json')\n        with open(config_path, 'r', encoding='utf-8') as f:\n            config_data = json.load(f)",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "serve_static",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def serve_static(filename):\n    \"\"\"提供静态文件服务\"\"\"\n    static_folder = app.static_folder\n    if static_folder is None:\n        static_folder = os.path.join(ROOT_DIR, 'src/webui/static')\n    return send_from_directory(static_folder, filename)\n@app.route('/execute_command', methods=['POST'])\ndef execute_command():\n    \"\"\"执行控制台命令\"\"\"\n    try:",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "execute_command",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def execute_command():\n    \"\"\"执行控制台命令\"\"\"\n    try:\n        command = (request.json or {}).get('command', '').strip()\n        # 处理内置命令\n        if command.lower() == 'help':\n            return jsonify({\n                'status': 'success',\n                'output': '''可用命令:\nhelp - 显示帮助信息",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "check_dependencies",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def check_dependencies():\n    \"\"\"检查Python和pip环境\"\"\"\n    try:\n        # 检查Python版本\n        python_version = sys.version.split()[0]\n        # 检查pip是否安装\n        pip_path = shutil.which('pip')\n        has_pip = pip_path is not None\n        # 检查requirements.txt是否存在\n        requirements_path = os.path.join(ROOT_DIR, 'requirements.txt')",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "favicon",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def favicon():\n    \"\"\"提供网站图标\"\"\"\n    return send_from_directory(\n        os.path.join(app.root_path, 'src/webui/static'),\n        'mom.ico',\n        mimetype='image/vnd.microsoft.icon'\n    )\ndef cleanup_processes():\n    \"\"\"清理所有相关进程\"\"\"\n    try:",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "cleanup_processes",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def cleanup_processes():\n    \"\"\"清理所有相关进程\"\"\"\n    try:\n        # 清理机器人进程\n        global bot_process, job_object\n        if bot_process:\n            try:\n                logger.info(f\"正在终止机器人进程 (PID: {bot_process.pid})...\")\n                # 获取进程组\n                parent = psutil.Process(bot_process.pid)",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "signal_handler",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def signal_handler(signum, frame):\n    \"\"\"信号处理函数\"\"\"\n    logger.info(f\"收到信号: {signum}\")\n    cleanup_processes()\n    sys.exit(0)\n# 注册信号处理器\nsignal.signal(signal.SIGINT, signal_handler)\nsignal.signal(signal.SIGTERM, signal_handler)\n# Windows平台特殊处理\nif sys.platform.startswith('win'):",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "open_browser",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def open_browser(port):\n    \"\"\"在新线程中打开浏览器\"\"\"\n    def _open_browser():\n        # 等待服务器启动\n        time.sleep(1.5)\n        # 优先使用 localhost\n        url = f\"http://localhost:{port}\"\n        webbrowser.open(url)\n    # 创建新线程来打开浏览器\n    threading.Thread(target=_open_browser, daemon=True).start()",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "create_job_object",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def create_job_object():\n    global job_object\n    try:\n        if sys.platform.startswith('win'):\n            # 创建作业对象\n            job_object = win32job.CreateJobObject(None, \"KouriChatBotJob\")\n            # 设置作业对象的扩展限制信息\n            info = win32job.QueryInformationJobObject(\n                job_object, win32job.JobObjectExtendedLimitInformation\n            )",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "setup_console_control_handler",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def setup_console_control_handler():\n    try:\n        if sys.platform.startswith('win'):\n            def handler(dwCtrlType):\n                if dwCtrlType in (win32con.CTRL_CLOSE_EVENT, win32con.CTRL_LOGOFF_EVENT, win32con.CTRL_SHUTDOWN_EVENT):\n                    logger.info(\"检测到控制台关闭事件，正在清理进程...\")\n                    cleanup_processes()\n                    return True\n                return False\n            win32api.SetConsoleCtrlHandler(handler, True)",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def main():\n    \"\"\"主函数\"\"\"\n    from src.config import config\n    # 设置系统编码为 UTF-8 (不清除控制台输出)\n    if sys.platform.startswith('win'):\n        os.system(\"@chcp 65001 >nul\")  # 使用 >nul 来隐藏输出而不清屏\n    print(\"\\n\" + \"=\"*50)\n    print_status(\"配置管理系统启动中...\", \"info\", \"LAUNCH\")\n    print(\"-\"*50)\n    # 创建作业对象来管理子进程",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "install_dependencies",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def install_dependencies():\n    \"\"\"安装依赖\"\"\"\n    try:\n        output = []\n        # 安装依赖\n        output.append(\"正在安装依赖，请耐心等待...\")\n        requirements_path = os.path.join(ROOT_DIR, 'requirements.txt')\n        if not os.path.exists(requirements_path):\n            return jsonify({\n                'status': 'error',",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    # 对密码进行哈希处理\n    return hashlib.sha256(password.encode()).hexdigest()\ndef is_local_network() -> bool:\n    # 检查是否是本地网络访问\n    client_ip = request.remote_addr\n    if client_ip is None:\n        return True\n    return (\n        client_ip == '127.0.0.1' or",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "is_local_network",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def is_local_network() -> bool:\n    # 检查是否是本地网络访问\n    client_ip = request.remote_addr\n    if client_ip is None:\n        return True\n    return (\n        client_ip == '127.0.0.1' or\n        client_ip.startswith('192.168.') or\n        client_ip.startswith('10.') or\n        client_ip.startswith('172.16.')",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "check_auth",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def check_auth():\n    # 请求前验证登录状态\n    # 排除不需要验证的路由\n    public_routes = ['login', 'static', 'init_password']\n    if request.endpoint in public_routes:\n        return\n    # 检查是否需要初始化密码\n    from src.config import config\n    if not config.auth.admin_password:\n        return redirect(url_for('init_password'))",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def login():\n    # 处理登录请求\n    from src.config import config\n    # 首先检查是否需要初始化密码\n    if not config.auth.admin_password:\n        return redirect(url_for('init_password'))\n    if request.method == 'GET':\n        # 如果已经登录，直接跳转到仪表盘\n        if session.get('logged_in'):\n            return redirect(url_for('dashboard'))",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "init_password",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def init_password():\n    # 初始化管理员密码页面\n    from src.config import config\n    if request.method == 'GET':\n        # 如果已经设置了密码，重定向到登录页面\n        if config.auth.admin_password:\n            return redirect(url_for('login'))\n        return render_template('init_password.html')\n    # POST请求处理\n    try:",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def logout():\n    # 退出登录\n    session.clear()\n    return redirect(url_for('login'))\n@app.route('/get_model_configs')\ndef get_model_configs():\n    \"\"\"获取模型和API配置\"\"\"\n    try:\n        configs = None\n        models_path = os.path.join(ROOT_DIR, 'src/autoupdate/cloud/models.json')",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "get_model_configs",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def get_model_configs():\n    \"\"\"获取模型和API配置\"\"\"\n    try:\n        configs = None\n        models_path = os.path.join(ROOT_DIR, 'src/autoupdate/cloud/models.json')\n        # 先尝试从云端获取模型列表\n        try:\n            from src.autoupdate.updater import check_cloud_info\n            cloud_info = check_cloud_info()\n            # 如果云端获取成功，使用云端模型列表",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "save_quick_setup",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def save_quick_setup():\n    \"\"\"保存快速设置\"\"\"\n    try:\n        new_config = request.json or {}\n        from src.config import config\n        # 读取当前配置\n        config_path = os.path.join(ROOT_DIR, 'src/config/config.json')\n        try:\n            with open(config_path, 'r', encoding='utf-8') as f:\n                current_config = json.load(f)",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "quick_setup",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def quick_setup():\n    \"\"\"快速设置页面\"\"\"\n    return render_template('quick_setup.html')\n# 添加获取可用人设列表的路由\n@app.route('/get_available_avatars')\ndef get_available_avatars_route():\n    \"\"\"获取可用的人设目录列表\"\"\"\n    try:\n        # 使用绝对路径\n        avatar_base_dir = os.path.join(ROOT_DIR, \"data\", \"avatars\")",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "get_available_avatars_route",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def get_available_avatars_route():\n    \"\"\"获取可用的人设目录列表\"\"\"\n    try:\n        # 使用绝对路径\n        avatar_base_dir = os.path.join(ROOT_DIR, \"data\", \"avatars\")\n        # 检查目录是否存在\n        if not os.path.exists(avatar_base_dir):\n            # 尝试创建目录\n            try:\n                os.makedirs(avatar_base_dir)",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "load_avatar_content",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def load_avatar_content():\n    \"\"\"加载指定人设的内容\"\"\"\n    try:\n        avatar_name = request.args.get('avatar', 'MONO')\n        avatar_path = os.path.join(ROOT_DIR, 'data', 'avatars', avatar_name, 'avatar.md')\n        # 确保目录存在\n        os.makedirs(os.path.dirname(avatar_path), exist_ok=True)\n        # 如果文件不存在，创建一个空文件\n        if not os.path.exists(avatar_path):\n            with open(avatar_path, 'w', encoding='utf-8') as f:",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "get_tasks",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def get_tasks():\n    \"\"\"获取定时任务列表\"\"\"\n    try:\n        config_data = load_config_file()\n        tasks = []\n        if 'categories' in config_data and 'schedule_settings' in config_data['categories']:\n            if 'settings' in config_data['categories']['schedule_settings'] and 'tasks' in config_data['categories']['schedule_settings']['settings']:\n                tasks = config_data['categories']['schedule_settings']['settings']['tasks'].get('value', [])\n        return jsonify({\n            'status': 'success',",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "save_task",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def save_task():\n    \"\"\"保存单个定时任务\"\"\"\n    try:\n        task_data = request.json\n        # 验证必要字段\n        required_fields = ['task_id', 'chat_id', 'content', 'schedule_type', 'schedule_time']\n        for field in required_fields:\n            if field not in task_data:\n                return jsonify({\n                    'status': 'error',",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "delete_task",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def delete_task():\n    \"\"\"删除定时任务\"\"\"\n    try:\n        data = request.json\n        task_id = data.get('task_id')\n        if not task_id:\n            return jsonify({\n                'status': 'error',\n                'message': '未提供任务ID'\n            })",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_configs",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def get_all_configs():\n    \"\"\"获取所有最新的配置数据\"\"\"\n    try:\n        # 直接从配置文件读取所有配置数据\n        config_path = os.path.join(ROOT_DIR, 'src/config/config.json')\n        with open(config_path, 'r', encoding='utf-8') as f:\n            config_data = json.load(f)\n        # 解析配置数据为前端需要的格式\n        configs = {}\n        tasks = []",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "get_announcement",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def get_announcement():\n    try:\n        # 默认公告内容\n        local_announcement = {\n            'enabled': True,\n            'title': '系统公告',\n            'content': '欢迎使用KouriChat！'\n        }\n        # 初始化云端信息变量\n        cloud_info = None",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "reconnect_wechat",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def reconnect_wechat():\n    try:\n        # 导入微信登录点击器\n        from src.Wechat_Login_Clicker.Wechat_Login_Clicker import click_wechat_buttons\n        # 执行点击操作\n        result = click_wechat_buttons()\n        if result is False:\n            return jsonify({\n                'status': 'error',\n                'message': '找不到微信登录窗口'",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "get_vision_api_configs",
+        "kind": 2,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "def get_vision_api_configs():\n    \"\"\"获取图像识别API配置\"\"\"\n    try:\n        # 构建图像识别API提供商列表\n        vision_providers = [\n            {\n                \"id\": \"kourichat-global\",\n                \"name\": \"KouriChat API (推荐)\",\n                \"url\": \"https://api.kourichat.com/v1\",\n                \"register_url\": \"https://api.kourichat.com/register\",",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "bot_process",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "bot_process = None\nbot_start_time = None\nbot_logs = Queue(maxsize=1000)\njob_object = None  # 添加全局作业对象变量\n# 配置日志\ndictConfig({\n    'version': 1,\n    'formatters': {\n        'default': {\n            'format': '[%(asctime)s] %(levelname)s: %(message)s',",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "bot_start_time",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "bot_start_time = None\nbot_logs = Queue(maxsize=1000)\njob_object = None  # 添加全局作业对象变量\n# 配置日志\ndictConfig({\n    'version': 1,\n    'formatters': {\n        'default': {\n            'format': '[%(asctime)s] %(levelname)s: %(message)s',\n            'datefmt': '%Y-%m-%d %H:%M:%S'",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "bot_logs",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "bot_logs = Queue(maxsize=1000)\njob_object = None  # 添加全局作业对象变量\n# 配置日志\ndictConfig({\n    'version': 1,\n    'formatters': {\n        'default': {\n            'format': '[%(asctime)s] %(levelname)s: %(message)s',\n            'datefmt': '%Y-%m-%d %H:%M:%S'\n        }",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "job_object",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "job_object = None  # 添加全局作业对象变量\n# 配置日志\ndictConfig({\n    'version': 1,\n    'formatters': {\n        'default': {\n            'format': '[%(asctime)s] %(levelname)s: %(message)s',\n            'datefmt': '%Y-%m-%d %H:%M:%S'\n        }\n    },",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# 初始化colorama\ninit()\n# 添加项目根目录到Python路径\nROOT_DIR = os.path.dirname(os.path.abspath(__file__))\nsys.path.append(ROOT_DIR)\n# 定义配置文件路径\nconfig_path = os.path.join(ROOT_DIR, 'src/config/config.json')  # 将配置路径定义为全局常量\n# 禁用Python的字节码缓存\nsys.dont_write_bytecode = True",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_DIR",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "ROOT_DIR = os.path.dirname(os.path.abspath(__file__))\nsys.path.append(ROOT_DIR)\n# 定义配置文件路径\nconfig_path = os.path.join(ROOT_DIR, 'src/config/config.json')  # 将配置路径定义为全局常量\n# 禁用Python的字节码缓存\nsys.dont_write_bytecode = True\n# 定义模板和静态文件目录\ntemplates_dir = os.path.join(ROOT_DIR, 'src/webui/templates')\nstatic_dir = os.path.join(ROOT_DIR, 'src/webui/static')\n# 确保目录存在",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "config_path",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "config_path = os.path.join(ROOT_DIR, 'src/config/config.json')  # 将配置路径定义为全局常量\n# 禁用Python的字节码缓存\nsys.dont_write_bytecode = True\n# 定义模板和静态文件目录\ntemplates_dir = os.path.join(ROOT_DIR, 'src/webui/templates')\nstatic_dir = os.path.join(ROOT_DIR, 'src/webui/static')\n# 确保目录存在\nos.makedirs(templates_dir, exist_ok=True)\nos.makedirs(static_dir, exist_ok=True)\nos.makedirs(os.path.join(static_dir, 'js'), exist_ok=True)",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "sys.dont_write_bytecode",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "sys.dont_write_bytecode = True\n# 定义模板和静态文件目录\ntemplates_dir = os.path.join(ROOT_DIR, 'src/webui/templates')\nstatic_dir = os.path.join(ROOT_DIR, 'src/webui/static')\n# 确保目录存在\nos.makedirs(templates_dir, exist_ok=True)\nos.makedirs(static_dir, exist_ok=True)\nos.makedirs(os.path.join(static_dir, 'js'), exist_ok=True)\nos.makedirs(os.path.join(static_dir, 'css'), exist_ok=True)\napp = Flask(__name__,",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "templates_dir",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "templates_dir = os.path.join(ROOT_DIR, 'src/webui/templates')\nstatic_dir = os.path.join(ROOT_DIR, 'src/webui/static')\n# 确保目录存在\nos.makedirs(templates_dir, exist_ok=True)\nos.makedirs(static_dir, exist_ok=True)\nos.makedirs(os.path.join(static_dir, 'js'), exist_ok=True)\nos.makedirs(os.path.join(static_dir, 'css'), exist_ok=True)\napp = Flask(__name__,\n    template_folder=templates_dir,\n    static_folder=static_dir)",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "static_dir",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "static_dir = os.path.join(ROOT_DIR, 'src/webui/static')\n# 确保目录存在\nos.makedirs(templates_dir, exist_ok=True)\nos.makedirs(static_dir, exist_ok=True)\nos.makedirs(os.path.join(static_dir, 'js'), exist_ok=True)\nos.makedirs(os.path.join(static_dir, 'css'), exist_ok=True)\napp = Flask(__name__,\n    template_folder=templates_dir,\n    static_folder=static_dir)\n# 添加配置",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "app = Flask(__name__,\n    template_folder=templates_dir,\n    static_folder=static_dir)\n# 添加配置\napp.config['UPLOAD_FOLDER'] = os.path.join(ROOT_DIR, 'src/webui/background_image')\n# 确保上传目录存在\nos.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)\n# 生成密钥用于session加密\napp.secret_key = secrets.token_hex(16)\n# 在 app 初始化后添加",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['UPLOAD_FOLDER']",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = os.path.join(ROOT_DIR, 'src/webui/background_image')\n# 确保上传目录存在\nos.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)\n# 生成密钥用于session加密\napp.secret_key = secrets.token_hex(16)\n# 在 app 初始化后添加\ntry:\n    app.register_blueprint(avatar_manager)\n    app.register_blueprint(avatar_bp)\n    logger.debug(\"成功注册蓝图组件\")",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "app.secret_key",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "app.secret_key = secrets.token_hex(16)\n# 在 app 初始化后添加\ntry:\n    app.register_blueprint(avatar_manager)\n    app.register_blueprint(avatar_bp)\n    logger.debug(\"成功注册蓝图组件\")\nexcept Exception as e:\n    logger.error(f\"注册蓝图组件失败: {str(e)}\")\n# 导入更新器中的常量\nfrom src.autoupdate.updater import Updater",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "ANNOUNCEMENT_CONFIG_PATH",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "ANNOUNCEMENT_CONFIG_PATH = os.path.join(ROOT_DIR, 'src/autoupdate/cloud/announcement.json')\nVERSION_CONFIG_PATH = os.path.join(ROOT_DIR, 'src/autoupdate/cloud/version.json')\n# 在应用启动时检查云端更新\ndef check_cloud_updates_on_startup():\n    try:\n        from src.autoupdate.updater import check_cloud_info\n        logger.info(\"应用启动时检查云端更新...\")\n        check_cloud_info()\n        logger.info(\"云端更新检查完成\")\n    except Exception as e:",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "VERSION_CONFIG_PATH",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "VERSION_CONFIG_PATH = os.path.join(ROOT_DIR, 'src/autoupdate/cloud/version.json')\n# 在应用启动时检查云端更新\ndef check_cloud_updates_on_startup():\n    try:\n        from src.autoupdate.updater import check_cloud_info\n        logger.info(\"应用启动时检查云端更新...\")\n        check_cloud_info()\n        logger.info(\"云端更新检查完成\")\n    except Exception as e:\n        logger.error(f\"检查云端更新失败: {e}\")",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "update_thread",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "update_thread = threading.Thread(target=check_cloud_updates_on_startup)\nupdate_thread.daemon = True\nupdate_thread.start()\n# 添加全局标记，跟踪公告是否已在本应用实例中显示过\nannouncement_shown_this_instance = False\ndef get_available_avatars() -> List[str]:\n    \"\"\"获取可用的人设目录列表\"\"\"\n    avatar_base_dir = os.path.join(ROOT_DIR, \"data/avatars\")\n    if not os.path.exists(avatar_base_dir):\n        os.makedirs(avatar_base_dir, exist_ok=True)",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "update_thread.daemon",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "update_thread.daemon = True\nupdate_thread.start()\n# 添加全局标记，跟踪公告是否已在本应用实例中显示过\nannouncement_shown_this_instance = False\ndef get_available_avatars() -> List[str]:\n    \"\"\"获取可用的人设目录列表\"\"\"\n    avatar_base_dir = os.path.join(ROOT_DIR, \"data/avatars\")\n    if not os.path.exists(avatar_base_dir):\n        os.makedirs(avatar_base_dir, exist_ok=True)\n        logger.info(f\"创建人设目录: {avatar_base_dir}\")",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "announcement_shown_this_instance",
+        "kind": 5,
+        "importPath": "kourichat.run_config_web",
+        "description": "kourichat.run_config_web",
+        "peekOfCode": "announcement_shown_this_instance = False\ndef get_available_avatars() -> List[str]:\n    \"\"\"获取可用的人设目录列表\"\"\"\n    avatar_base_dir = os.path.join(ROOT_DIR, \"data/avatars\")\n    if not os.path.exists(avatar_base_dir):\n        os.makedirs(avatar_base_dir, exist_ok=True)\n        logger.info(f\"创建人设目录: {avatar_base_dir}\")\n        return []\n    # 获取所有包含 avatar.md 和 emojis 目录的有效人设目录\n    avatars = []",
+        "detail": "kourichat.run_config_web",
+        "documentation": {}
+    },
+    {
+        "label": "ProgressWindow",
+        "kind": 6,
+        "importPath": "ui.progress_window",
+        "description": "ui.progress_window",
+        "peekOfCode": "class ProgressWindow:\n    \"\"\"进度窗口类\"\"\"\n    def __init__(self, title=\"KouriChat安装向导\"):\n        \"\"\"初始化进度窗口\"\"\"\n        self._setup_dpi()\n        self._create_window(title)\n        self._setup_fonts()\n        self._setup_colors()\n        self._setup_styles()\n        self._create_ui()",
+        "detail": "ui.progress_window",
+        "documentation": {}
+    },
+    {
+        "label": "CloudConfigManager",
+        "kind": 6,
+        "importPath": "cloud_config_manager",
+        "description": "cloud_config_manager",
+        "peekOfCode": "class CloudConfigManager:\n    \"\"\"云下发配置管理器GUI\"\"\"\n    def __init__(self):\n        self.root = tk.Tk()\n        self.root.title(\"云下发配置管理器\")\n        self.root.geometry(\"800x600\")\n        self.root.resizable(True, True)\n        # 配置文件路径\n        self.config_path = Path(\"cloud_config.json\")\n        # 当前配置",
+        "detail": "cloud_config_manager",
+        "documentation": {}
+    },
+    {
+        "label": "simple_progress_callback",
+        "kind": 2,
+        "importPath": "example_hot_update",
+        "description": "example_hot_update",
+        "peekOfCode": "def simple_progress_callback(callback_type: str, data):\n    \"\"\"简单的进度回调函数\"\"\"\n    if callback_type == 'progress':\n        progress, status = data\n        print(f\"进度: {progress:.1f}% - {status}\")\n    elif callback_type == 'detail':\n        print(f\"详情: {data}\")\ndef main():\n    \"\"\"主函数\"\"\"\n    print(\"🔥 热更新功能使用示例\")",
+        "detail": "example_hot_update",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "example_hot_update",
+        "description": "example_hot_update",
+        "peekOfCode": "def main():\n    \"\"\"主函数\"\"\"\n    print(\"🔥 热更新功能使用示例\")\n    print(\"=\" * 50)\n    # 创建热更新器\n    updater = HotUpdater(simple_progress_callback)\n    # 执行热更新\n    success = updater.perform_hot_update()\n    if success:\n        print(\"✅ 热更新检查完成\")",
+        "detail": "example_hot_update",
+        "documentation": {}
+    },
+    {
+        "label": "is_admin",
+        "kind": 2,
+        "importPath": "install_all_new",
+        "description": "install_all_new",
+        "peekOfCode": "def is_admin():\n    \"\"\"检查是否以管理员权限运行\"\"\"\n    try:\n        return ctypes.windll.shell32.IsUserAnAdmin()\n    except:\n        return False\ndef run_as_admin():\n    \"\"\"以管理员权限重新运行程序\"\"\"\n    try:\n        if getattr(sys, 'frozen', False):",
+        "detail": "install_all_new",
+        "documentation": {}
+    },
+    {
+        "label": "run_as_admin",
+        "kind": 2,
+        "importPath": "install_all_new",
+        "description": "install_all_new",
+        "peekOfCode": "def run_as_admin():\n    \"\"\"以管理员权限重新运行程序\"\"\"\n    try:\n        if getattr(sys, 'frozen', False):\n            # 如果是打包后的exe文件\n            ctypes.windll.shell32.ShellExecuteW(\n                None,\n                \"runas\",\n                sys.executable,\n                \"\",",
+        "detail": "install_all_new",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "install_all_new",
+        "description": "install_all_new",
+        "peekOfCode": "def main():\n    \"\"\"主函数\"\"\"\n    # 检查管理员权限\n    if not is_admin():\n        print(\"程序需要管理员权限才能正常运行...\")\n        print(\"正在请求管理员权限...\")\n        if run_as_admin():\n            print(\"已请求管理员权限，程序将重新启动\")\n            return 0\n        else:",
+        "detail": "install_all_new",
+        "documentation": {}
+    },
+    {
+        "label": "InstallationController",
+        "kind": 6,
+        "importPath": "main_controller",
+        "description": "main_controller",
+        "peekOfCode": "class InstallationController:\n    \"\"\"安装控制器 - 负责协调整个安装流程\"\"\"\n    def __init__(self):\n        \"\"\"初始化控制器\"\"\"\n        self.progress_window = None\n        self.cloud_downloader = None\n        self.system_checker = None\n        self.installer = None\n        self.launcher = None\n        self.hot_updater = None",
+        "detail": "main_controller",
+        "documentation": {}
+    }
+]

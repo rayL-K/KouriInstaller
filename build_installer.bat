@@ -121,14 +121,15 @@ if not exist "dist\KouriInstaller.exe" (
     goto END
 )
 
-echo 复制EXE到当前目录...
-copy /Y "dist\KouriInstaller.exe" "."
+echo 复制EXE到final_exe目录...
+if not exist "final_exe" mkdir "final_exe"
+copy /Y "dist\KouriInstaller.exe" "final_exe\"
 
 if %errorlevel% neq 0 (
     echo 错误：复制EXE失败
     goto END
 ) else (
-    echo 打包完成，文件已保存至: %CD%
+    echo 打包完成，文件已保存至: %CD%\final_exe\
 )
 
 echo.
@@ -137,17 +138,18 @@ if exist "dist" rmdir /s /q "dist"
 if exist "build" rmdir /s /q "build"
 if exist "*.spec" del /q "*.spec"
 
-echo 清理KouriInstaller文件夹...
+REM 删除打包时生成的KouriInstaller文件夹（如果存在）
 if exist "KouriInstaller" (
-    echo 发现KouriInstaller文件夹，正在删除...
+    echo 删除打包生成的KouriInstaller文件夹...
     rmdir /s /q "KouriInstaller"
-    if %errorlevel% equ 0 (
-        echo KouriInstaller文件夹已删除
-    ) else (
-        echo 警告：删除KouriInstaller文件夹失败，请手动删除
-    )
-) else (
-    echo 未发现KouriInstaller文件夹
+    echo 已删除KouriInstaller文件夹
+)
+
+REM 删除根目录下的KouriInstaller.exe文件（如果存在）
+if exist "KouriInstaller.exe" (
+    echo 删除旧的KouriInstaller.exe文件...
+    del /q "KouriInstaller.exe"
+    echo 已删除旧的KouriInstaller.exe文件
 )
 
 echo 清理完成
@@ -157,11 +159,12 @@ echo ======================================
 echo KouriInstaller 打包完成
 echo.
 echo 使用说明:
-echo 1. 双击"KouriInstaller.exe"启动安装器
+echo 1. 双击"final_exe\KouriInstaller.exe"启动安装器
 echo 2. 如遇杀毒软件误报请添加信任
 echo 3. 若需上传OSS请参考GitHub文档
 echo 4. 如遇问题请联系开发者或提交issue
-echo 5. 若需重新打包请删除旧的KouriInstaller.exe后再运行本脚本
+echo 5. 打包后的exe文件保存在final_exe目录中
+echo 6. 打包生成的临时文件夹已自动删除
 echo ======================================
 echo.
 

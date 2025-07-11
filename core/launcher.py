@@ -66,6 +66,10 @@ class ScriptLauncher:
         try:
             self._log(f"找到 run.bat 文件于: {bat_path}")
 
+            # 等待Python环境变量生效
+            self._update_progress(95, "等待Python环境生效...")
+            self._wait_for_python_env()
+
             # 更新状态
             self._update_progress(99, "启动项目...")
             self._log("正在以管理员身份运行 run.bat...")
@@ -151,178 +155,107 @@ class ScriptLauncher:
         self._log("未找到 run.bat 文件")
         return None
     
-    def _run_as_admin(self, bat_path: Path) -> bool:
-        """以管理员身份运行批处理文件，带智能重启检测"""
-        return self._run_with_smart_restart(bat_path, admin=True)
+    def _wait_for_python_env(self) -> bool:
+        """等待Python环境变量生效"""
+        import time
+        import subprocess
 
-    def _run_with_smart_restart(self, bat_path: Path, admin: bool = True, max_retries: int = 2) -> bool:
-        """智能启动run.bat，检测Python未安装错误并自动重启"""
-        for attempt in range(max_retries):
-            self._log(f"第 {attempt + 1} 次尝试启动 {bat_path.name}...")
+        self._log("等待Python环境变量生效...")
+        max_wait_time = 30  # 最大等待30秒
+        check_interval = 2  # 每2秒检查一次
 
-            # 创建智能启动脚本
-            temp_bat_content = f'''@echo off
-echo ========================================
-echo KouriChat 智能启动器 (尝试 {attempt + 1}/{max_retries})
-echo ========================================
-echo.
-
-echo 正在刷新环境变量...
-:: 刷新环境变量
-for /f "tokens=2*" %%i in ('reg query "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment" /v PATH') do set "SystemPath=%%j"
-for /f "tokens=2*" %%i in ('reg query "HKCU\\Environment" /v PATH 2^>nul') do set "UserPath=%%j"
-if defined UserPath (
-    set "PATH=%SystemPath%;%UserPath%"
-) else (
-    set "PATH=%SystemPath%"
-)
-
-echo 环境变量已刷新
-echo 当前PATH: %PATH%
-echo.
-
-echo 正在启动 {bat_path.name}...
-cd /d "{bat_path.parent}"
-
-:: 创建输出文件来捕获run.bat的输出
-set "output_file=%TEMP%\\kourichat_output_{attempt}.txt"
-echo 输出将保存到: %output_file%
-
-:: 运行run.bat并捕获输出
-call "{bat_path.name}" > "%output_file%" 2>&1
-
-:: 检查输出中是否包含Python未安装的错误
-findstr /i "python.*not.*found\\|python.*未.*安装\\|python.*不是.*命令\\|'python'.*不是.*可运行" "%output_file%" >nul
-if %errorlevel% equ 0 (
-    echo.
-    echo ========================================
-    echo 检测到Python未安装错误！
-    echo ========================================
-    echo 输出内容:
-    type "%output_file%"
-    echo.
-    if {attempt + 1} lss {max_retries} (
-        echo 将在5秒后重新启动...
-        timeout /t 5 /nobreak >nul
-        echo 正在重新启动...
-        exit /b 1
-    ) else (
-        echo 已达到最大重试次数，请手动检查Python安装
-        pause
-        exit /b 1
-    )
-) else (
-    echo.
-    echo ========================================
-    echo 启动成功！
-    echo ========================================
-    type "%output_file%"
-    echo.
-    echo 程序正在运行中...
-    pause
-    exit /b 0
-)
-'''
-
-            # 创建临时批处理文件
-            temp_bat_path = bat_path.parent / f"smart_launcher_{attempt}.bat"
+        for i in range(0, max_wait_time, check_interval):
             try:
-                with open(temp_bat_path, 'w', encoding='gbk') as f:
-                    f.write(temp_bat_content)
+                # 刷新当前进程的环境变量
+                self._refresh_environment()
 
-                self._log(f"创建智能启动脚本: {temp_bat_path}")
+                # 检查Python是否可用
+                result = subprocess.run(['python', '--version'],
+                                      capture_output=True,
+                                      text=True,
+                                      timeout=5)
 
-                # 根据admin参数选择启动方式
-                if admin:
-                    result = ctypes.windll.shell32.ShellExecuteW(
-                        None,
-                        "runas",  # 以管理员身份运行
-                        "cmd.exe",
-                        f'/c "{temp_bat_path}"',
-                        str(bat_path.parent),
-                        1  # SW_SHOWNORMAL
-                    )
-                else:
-                    result = ctypes.windll.shell32.ShellExecuteW(
-                        None,
-                        "open",
-                        "cmd.exe",
-                        f'/c "{temp_bat_path}"',
-                        str(bat_path.parent),
-                        1  # SW_SHOWNORMAL
-                    )
-
-                # ShellExecute返回值大于32表示成功
-                if result > 32:
-                    self._log(f"成功启动智能启动脚本 (尝试 {attempt + 1})")
-
-                    # 等待一段时间让脚本执行
-                    import time
-                    time.sleep(3)
-
-                    # 检查输出文件是否存在Python错误
-                    output_file = Path(os.environ.get('TEMP', '')) / f"kourichat_output_{attempt}.txt"
-                    if output_file.exists():
-                        try:
-                            with open(output_file, 'r', encoding='gbk', errors='ignore') as f:
-                                output_content = f.read().lower()
-
-                            # 检查是否包含Python未安装的错误信息
-                            python_errors = [
-                                'python.*not.*found',
-                                'python.*未.*安装',
-                                'python.*不是.*命令',
-                                "'python'.*不是.*可运行"
-                            ]
-
-                            has_python_error = any(error in output_content for error in python_errors)
-
-                            if has_python_error and attempt < max_retries - 1:
-                                self._log(f"检测到Python错误，准备重试 (尝试 {attempt + 1}/{max_retries})")
-                                # 清理临时文件
-                                try:
-                                    temp_bat_path.unlink()
-                                    output_file.unlink()
-                                except:
-                                    pass
-                                continue  # 重试
-                            else:
-                                self._log(f"启动完成 (尝试 {attempt + 1})")
-                                return True
-
-                        except Exception as e:
-                            self._log(f"读取输出文件失败: {e}")
-
+                if result.returncode == 0:
+                    python_version = result.stdout.strip()
+                    self._log(f"✓ Python环境已生效: {python_version}")
                     return True
-                else:
-                    self._log(f"启动失败，错误代码: {result}")
 
-            except Exception as e:
-                self._log(f"创建智能启动脚本失败: {e}")
-            finally:
-                # 延迟清理临时文件
-                try:
-                    import threading
-                    def delayed_cleanup():
-                        import time
-                        time.sleep(10)  # 等待10秒后删除
-                        try:
-                            if temp_bat_path.exists():
-                                temp_bat_path.unlink()
-                        except:
-                            pass
+            except (subprocess.TimeoutExpired, subprocess.CalledProcessError, FileNotFoundError):
+                pass
 
-                    cleanup_thread = threading.Thread(target=delayed_cleanup, daemon=True)
-                    cleanup_thread.start()
-                except:
-                    pass
+            self._log(f"等待Python环境生效... ({i + check_interval}/{max_wait_time}秒)")
+            time.sleep(check_interval)
 
-        self._log(f"所有启动尝试都失败了")
+        self._log("⚠ Python环境变量等待超时，将尝试直接启动")
         return False
 
+    def _refresh_environment(self):
+        """刷新当前进程的环境变量"""
+        try:
+            import winreg
+
+            # 读取系统环境变量
+            with winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE,
+                               r"SYSTEM\CurrentControlSet\Control\Session Manager\Environment") as key:
+                system_path = winreg.QueryValueEx(key, "PATH")[0]
+
+            # 读取用户环境变量
+            try:
+                with winreg.OpenKey(winreg.HKEY_CURRENT_USER, "Environment") as key:
+                    user_path = winreg.QueryValueEx(key, "PATH")[0]
+                    combined_path = f"{system_path};{user_path}"
+            except FileNotFoundError:
+                combined_path = system_path
+
+            # 更新当前进程的PATH环境变量
+            os.environ["PATH"] = combined_path
+            self._log("已刷新环境变量")
+
+        except Exception as e:
+            self._log(f"刷新环境变量失败: {e}")
+
+    def _run_as_admin(self, bat_path: Path) -> bool:
+        """以管理员身份运行批处理文件"""
+        try:
+            # 使用ShellExecute以管理员身份运行
+            result = ctypes.windll.shell32.ShellExecuteW(
+                None,
+                "runas",  # 以管理员身份运行
+                "cmd.exe",
+                f'/c "cd /d "{bat_path.parent}" && "{bat_path.name}""',
+                str(bat_path.parent),
+                1  # SW_SHOWNORMAL
+            )
+
+            # ShellExecute返回值大于32表示成功
+            if result > 32:
+                self._log(f"成功以管理员身份启动: {bat_path}")
+                return True
+            else:
+                self._log(f"以管理员身份运行失败，错误代码: {result}")
+                return False
+
+        except Exception as e:
+            self._log(f"以管理员身份运行时发生异常: {e}")
+            return False
+
     def _run_normal(self, bat_path: Path) -> bool:
-        """以普通权限运行批处理文件，带智能重启检测"""
-        return self._run_with_smart_restart(bat_path, admin=False)
+        """以普通权限运行批处理文件"""
+        try:
+            # 使用subprocess运行
+            process = subprocess.Popen(
+                [str(bat_path)],
+                cwd=str(bat_path.parent),
+                shell=True,
+                creationflags=subprocess.CREATE_NEW_CONSOLE
+            )
+
+            self._log(f"成功以普通权限启动: {bat_path} (PID: {process.pid})")
+            return True
+
+        except Exception as e:
+            self._log(f"以普通权限运行时发生异常: {e}")
+            return False
     
     def _show_error_message(self, message: str):
         """显示错误消息"""

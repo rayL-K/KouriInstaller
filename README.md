@@ -17,42 +17,36 @@
 ## 🌟 功能特性
 
 ### 🚀 **纯云端下载**
-
 - 完全基于云端，不依赖本地文件
 - 自动从配置的URL下载安装包
 - 实时显示下载进度和速度
 - 支持大文件下载和网络重试
 
 ### 🔄 **多源备用**
-
 - **主源**: 阿里云OSS (国内高速)
 - **备用**: GitHub Release (全球可用)
 - 主源失败时自动切换备用源
 - 智能选择最快的下载源
 
 ### 📦 **ZIP文件支持**
-
 - 自动下载和解压ZIP压缩包
 - 支持大型项目文件分发
 - 解压完成后自动清理ZIP文件
 - 智能文件类型识别
 
 ### ✅ **文件验证**
-
 - 支持MD5校验确保文件完整性
 - 自动验证文件大小
 - 损坏文件自动重新下载
 - 下载缓存避免重复下载
 
 ### 🎨 **UI**
-
 - 流畅的进度条动画
 - 实时状态和详细信息显示
 - 简洁的界面设计
 - 用户友好的交互体验
 
 ### 🔥 **云端配置热更新**
-
 - 程序启动时自动检查云端配置更新
 - 从云端获取最新的配置文件
 - 支持版本比较和增量更新
@@ -60,14 +54,19 @@
 - 云端统一管理所有配置
 
 ### 🛡️ **智能检测**
-
 - 自动检测已安装的Python和微信版本
 - 跳过已安装的符合要求的软件
 - 自动请求管理员权限
 - 环境变量验证
 
-### 🔐 **管理员权限**
+### ⏱️ **环境变量等待**
+- 启动脚本前自动等待Python环境变量生效
+- 智能检测Python可用性（最多等待30秒）
+- 自动刷新当前进程的环境变量
+- 实时显示等待状态和进度
+- 确保Python安装后能正确启动项目
 
+### 🔐 **管理员权限**
 - 程序启动时自动检测管理员权限
 - 未检测到权限时自动请求提升
 - 支持多种启动方式确保权限获取
@@ -98,13 +97,11 @@
 ### 🧩 模块设计原则
 
 #### 高内聚 (High Cohesion)
-
 - 每个模块内部的功能紧密相关
 - 单一职责原则：每个模块只负责一个特定的功能领域
 - 模块内部的代码协同工作，实现共同目标
 
 #### 低耦合 (Low Coupling)
-
 - 模块之间的依赖关系最小化
 - 通过标准接口进行通信
 - 模块可以独立开发、测试和维护
@@ -127,31 +124,26 @@
 ### 1. **运行安装器**
 
 #### 方法1：Python脚本（自动请求管理员权限）
-
 ```bash
 python install_all_new.py
 ```
 
 #### 方法2：批处理文件（推荐）
-
 ```bash
 run_as_admin.bat
 ```
 
 #### 方法3：PowerShell脚本
-
 ```powershell
 .\run_as_admin.ps1
 ```
 
 #### 方法4：打包后的EXE文件
-
 ```bash
 KouriInstaller.exe  # 自动请求管理员权限
 ```
 
 ### 2. **安装流程**
-
 1. 程序启动时自动下载云端配置文件
 2. 用云端配置替换本地配置文件
 3. 智能检测Python和微信安装状态
@@ -188,7 +180,7 @@ KouriInstaller.exe  # 自动请求管理员权限
       "https://github.com/rayL-K/Kouri-installer-packages/releases/download/v1.4.2-fix/python-3.11.9-amd64.exe"
     ]
   },
-  "version": "1.4.2-fix",
+  "version": "1.4.3",
   "last_updated": "2024-07-09T15:30:00Z",
   "description": "阿里云OSS主源 + GitHub备用源配置"
 }
@@ -213,7 +205,6 @@ KouriInstaller.exe  # 自动请求管理员权限
 ### 📊 下载源配置
 
 #### 🚀 **主要下载源 - 阿里云OSS**
-
 ```
 Bucket: krc-packages
 Region: 华东1(南京) 
@@ -228,7 +219,6 @@ Base URL: https://krc-packages.oss-cn-nanjing.aliyuncs.com/
 ```
 
 #### 🔄 **备用下载源 - GitHub Release**
-
 ```
 Repository: rayL-K/Kouri-installer-packages
 Tag: v1.4.2-fix
@@ -253,16 +243,15 @@ krc-packages (Bucket)
 ### ⚙️ 阿里云OSS设置步骤
 
 1. **创建Bucket**
-   
    - Bucket名称: `krc-packages`
    - 地域: 华东1(南京)
    - 读写权限: 公共读
+
 2. **上传文件**
-   
    - 将文件上传到Bucket根目录
    - 设置文件权限为"公共读"
+
 3. **验证访问**
-   
    - 确认文件URL可直接访问
    - 测试下载功能
 
@@ -278,21 +267,18 @@ krc-packages (Bucket)
 ## 🛠️ 开发指南
 
 ### 添加新功能
-
 1. 确定功能属于哪个模块
 2. 如果需要新模块，创建独立的文件
 3. 通过回调机制与UI通信
 4. 在主控制器中协调新功能
 
 ### 修改现有功能
-
 1. 定位到对应的模块
 2. 只修改该模块内部实现
 3. 保持接口不变
 4. 测试模块功能
 
 ### 云端配置热更新
-
 1. 修改云端的`cloud_config.json`文件
 2. 更新版本号和最后更新时间
 3. 修改包体信息（如需要）
@@ -436,13 +422,11 @@ class SoftwareInstaller:
 class ScriptLauncher:
     """脚本启动器"""
 
-    def __init__(self, app_path: Path, progress_callback=None, log_callback=None):
+    def __init__(self, progress_callback=None):
         """初始化启动器
 
         Args:
-            app_path: 应用程序路径
             progress_callback: 进度回调函数
-            log_callback: 日志回调函数
         """
 
     def find_and_launch_script(self) -> bool:
@@ -451,6 +435,16 @@ class ScriptLauncher:
         Returns:
             bool: 是否成功找到并启动脚本
         """
+
+    def _wait_for_python_env(self) -> bool:
+        """等待Python环境变量生效
+
+        Returns:
+            bool: Python环境是否可用
+        """
+
+    def _refresh_environment(self):
+        """刷新当前进程的环境变量"""
 ```
 
 #### 6. 热更新器 (`core/hot_updater.py`)
@@ -514,7 +508,6 @@ class ProgressWindow:
 ### 🔧 回调函数接口
 
 #### 进度回调函数
-
 ```python
 def progress_callback(message: str) -> None:
     """进度更新回调函数
@@ -526,7 +519,6 @@ def progress_callback(message: str) -> None:
 ```
 
 #### 日志回调函数
-
 ```python
 def log_callback(message: str) -> None:
     """日志记录回调函数
@@ -540,7 +532,6 @@ def log_callback(message: str) -> None:
 ### 📋 配置文件接口
 
 #### 云端配置文件结构
-
 ```python
 {
     "base_url": str,                    # 基础下载URL
@@ -567,7 +558,6 @@ def log_callback(message: str) -> None:
 ### 🚀 使用示例
 
 #### 1. 创建自定义安装流程
-
 ```python
 from main_controller import InstallationController
 
@@ -582,7 +572,6 @@ controller.cleanup()
 ```
 
 #### 2. 单独使用下载器
-
 ```python
 from core.cloud_downloader import CloudDownloader
 from pathlib import Path
@@ -614,7 +603,6 @@ downloaded_files = downloader.download_packages(packages)
 ```
 
 #### 3. 系统检查
-
 ```python
 from core.system_checker import SystemChecker
 
@@ -633,7 +621,6 @@ print(f"微信已安装: {wechat_info['installed']}")
 ### 🔌 扩展开发
 
 #### 添加新的下载源
-
 ```python
 # 在 cloud_downloader.py 中扩展
 def add_custom_source(self, source_name: str, base_url: str):
@@ -642,7 +629,6 @@ def add_custom_source(self, source_name: str, base_url: str):
 ```
 
 #### 添加新的软件检查
-
 ```python
 # 在 system_checker.py 中扩展
 def check_custom_software(self, software_name: str) -> dict:
@@ -657,7 +643,6 @@ def check_custom_software(self, software_name: str) -> dict:
 ```
 
 #### 自定义UI主题
-
 ```python
 # 在 progress_window.py 中扩展
 def set_custom_theme(self, theme_config: dict):
@@ -682,17 +667,16 @@ build_installer.bat
 脚本会自动完成以下步骤：
 
 1. **环境检查**
-   
    - 检查Python安装
    - 安装/更新uv包管理器
    - 安装必要依赖：`pyinstaller` `pywin32` `pillow` `requests` `urllib3`
+
 2. **项目验证**
-   
    - 验证`install_all_new.py`存在
    - 验证`cloud_config.json`存在
    - 验证`ui/`和`core/`目录存在
+
 3. **构建执行**
-   
    - 清理旧的构建文件
    - 使用PyInstaller打包为单文件EXE
    - 自动包含配置文件和隐藏导入
@@ -712,10 +696,15 @@ build_installer.bat
 
 ```
 生成文件:
-├── dist/
+├── final_exe/
 │   └── KouriInstaller.exe  # 最终可执行文件
-└── 部署目录/
-    └── KouriInstaller.exe  # 自动复制的文件
+├── dist/                   # 临时构建目录（自动清理）
+└── build/                  # 临时构建目录（自动清理）
+
+清理文件:
+├── KouriInstaller.exe      # 根目录旧文件（自动删除）
+├── *.spec                  # PyInstaller规格文件（自动删除）
+└── 临时构建文件             # 自动清理
 ```
 
 ### 🎯 **部署优势**
@@ -730,38 +719,29 @@ build_installer.bat
 ### 常见问题
 
 #### Q: 进度条不动？
-
 A: 检查网络连接，确保云端文件可访问。程序会自动切换到备用源。
 
 #### Q: 下载失败？
-
-A:
-
+A: 
 1. 检查阿里云OSS文件是否已上传
 2. 验证文件权限设置为公共读
 3. 检查网络连接
 4. 查看详细错误信息
 
 #### Q: 安装失败？
-
-A:
-
+A: 
 1. 确保以管理员权限运行
 2. 检查系统兼容性
 3. 查看安装日志
 
 #### Q: 配置文件错误？
-
 A:
-
 1. 验证JSON格式是否正确
 2. 检查云端配置文件是否可访问
 3. 参考示例配置文件
 
 #### Q: 如何以管理员权限运行？
-
 A:
-
 1. **自动方式**：直接运行程序，会自动请求管理员权限
 2. **批处理文件**：运行 `run_as_admin.bat`
 3. **PowerShell**：运行 `run_as_admin.ps1`
@@ -769,37 +749,37 @@ A:
 5. **EXE文件**：打包后的EXE会自动请求管理员权限
 
 #### Q: 管理员权限请求失败？
-
 A:
-
 1. 确保当前用户有管理员权限
 2. 检查UAC设置是否过于严格
 3. 尝试手动以管理员身份运行
 4. 使用提供的批处理或PowerShell脚本
 
 #### Q: exe文件图标不显示？
-
 A:
-
 1. 确保final_exe目录中的图标文件存在
 2. 重新打包exe文件，确保资源文件被正确包含
 3. 检查图标文件格式是否正确（.ico格式）
 4. 验证图标文件没有损坏
 
 #### Q: run.bat不会自动启动？
-
 A:
-
 1. 确保kourichat文件夹与exe文件在同一目录
 2. 检查run.bat文件是否存在且可执行
 3. 查看安装详情中的日志信息
 4. 手动运行exe文件，观察搜索路径
 5. 确保文件夹名称包含"kourichat"、"kouri"或"exploration"关键词
 
-#### Q: 打包后的exe文件无法运行？
-
+#### Q: run.bat启动后显示Python错误？
 A:
+1. **环境变量等待**：程序会在启动前自动等待Python环境变量生效
+2. **环境变量刷新**：程序内部会自动刷新系统和用户环境变量
+3. **智能检测**：最多等待30秒检测Python可用性
+4. **实时反馈**：在安装详情中可以看到等待状态
+5. **手动检查**：如果等待超时，请手动检查Python安装和环境变量配置
 
+#### Q: 打包后的exe文件无法运行？
+A:
 1. 检查是否缺少必要的依赖文件
 2. 确保Python环境正确
 3. 查看PyInstaller的警告信息
@@ -807,7 +787,6 @@ A:
 5. 检查杀毒软件是否误报
 
 ### 🔍 调试技巧
-
 1. 每个模块可以独立运行和测试
 2. 使用回调函数输出调试信息
 3. 检查downloads目录中的缓存文件
@@ -815,7 +794,6 @@ A:
 ## 📈 性能优化
 
 ### 下载速度对比 (国内)
-
 ```
 阿里云OSS:    10-50 MB/s  (主源)
 GitHub:       1-10 MB/s   (备用源)
@@ -823,7 +801,6 @@ Python官方:   0.5-5 MB/s  (最终备用)
 ```
 
 ### 可用性对比
-
 ```
 阿里云OSS:    99.9% (国内优秀)
 GitHub:       99.5% (全球稳定)
@@ -832,8 +809,15 @@ GitHub:       99.5% (全球稳定)
 
 ## 🔄 更新日志
 
-### v2.1.0 (2025-07-10)
+### v2.1.1 (2025-07-11)
+- ✅ **新增环境变量等待功能**：启动run.bat前自动等待Python环境变量生效
+- ✅ **优化环境变量刷新**：程序内部自动刷新系统和用户环境变量
+- ✅ **改进启动稳定性**：智能检测Python可用性，最多等待30秒确保环境就绪
+- ✅ **增强用户体验**：在安装详情中实时显示环境变量等待状态
+- ✅ **优化打包流程**：打包完成后自动将exe文件移至final_exe目录并删除临时文件夹
+- ✅ **完善文件管理**：自动清理打包生成的KouriInstaller文件夹
 
+### v2.1.0 (2025-07-10)
 - ✅ **修复exe文件资源路径问题**：支持打包后的exe在任意目录正确显示图标和图片
 - ✅ **修复run.bat启动问题**：改进路径搜索逻辑，确保解压后能正确找到并运行run.bat
 - ✅ **优化打包配置**：添加所有必要资源文件到exe打包中
@@ -842,7 +826,6 @@ GitHub:       99.5% (全球稳定)
 - ✅ **完善开发者接口文档**：添加详细的API文档和使用示例
 
 ### v2.0.4 (2025-07-10)
-
 - ✅ 实现智能系统检测，跳过已安装的软件
 - ✅ 优化下载逻辑，根据检测结果决定下载内容
 - ✅ 修改启动脚本为 `run.bat`（原 `fast_run.bat`）
@@ -850,35 +833,30 @@ GitHub:       99.5% (全球稳定)
 - ✅ 简化热更新机制，直接替换配置文件
 
 ### v2.0.3 (2024-07-10)
-
 - ✅ 全新云端配置热更新机制
 - ✅ 简化热更新流程，直接更新配置文件
 - ✅ 优化文件结构，移除冗余代码
 - ✅ 提高系统稳定性和可维护性
 
 ### v2.0.2 (2024-07-09)
-
 - ✅ 配置阿里云OSS为主要下载源
 - ✅ GitHub Release作为备用源
 - ✅ 智能多源下载和自动切换
 - ✅ 完善的错误处理和重试机制
 
 ### v2.0.1 (2024-07-09)
-
 - ✅ 新增ZIP文件自动下载和解压功能
 - ✅ 支持大型项目文件云端分发
 - ✅ 智能文件类型识别和处理
 - ✅ 增强的配置管理界面
 
 ### v2.0.0 (2024-07-09)
-
 - ✅ 完全重构为模块化架构
 - ✅ 实现高内聚、低耦合设计
 - ✅ 移除日志文件依赖
 - ✅ 优化UI和用户体验
 
 ### v1.0.0
-
 - ✅ 基础云端下载功能
 - ✅ Python和微信自动安装
 - ✅ 基本的进度显示
@@ -888,15 +866,14 @@ GitHub:       99.5% (全球稳定)
 这个云端安装器通过优秀的架构设计，为用户和开发者提供了：
 
 ### 👥 用户体验
-
 - 🚀 **极速下载**：阿里云OSS国内高速访问
 - 🔄 **高可靠性**：多源备用和自动切换
 - 📦 **完整环境**：一键获得软件+项目文件
 - 🎨 **优秀体验**：流畅UI和实时反馈
 - 🔥 **灵活更新**：云端配置热更新机制
+- ⏱️ **环境等待**：智能等待Python环境变量生效
 
 ### 👨‍💻 开发者友好
-
 - 🛠️ **模块化架构**：高内聚、低耦合的设计
 - 📚 **完整API**：详细的开发者接口文档
 - 🔌 **易于扩展**：标准化的回调和接口
@@ -904,17 +881,18 @@ GitHub:       99.5% (全球稳定)
 - 📖 **清晰文档**：完整的使用示例和最佳实践
 
 ### 🔧 技术优势
-
 - 💾 **资源管理**：智能的资源路径处理
 - 🔍 **智能搜索**：递归文件查找算法
 - 🛡️ **错误处理**：完善的异常处理机制
 - 📊 **状态管理**：实时的进度和状态反馈
 - 🎯 **精确控制**：细粒度的安装流程控制
+- ⏱️ **环境等待**：智能等待和检测机制
+- 🧹 **文件管理**：自动清理临时文件和文件夹
 
 通过云端分发，用户只需下载一个小的安装程序，就能自动获得完整的项目环境！
 开发者可以轻松基于现有架构扩展功能，创建自定义的安装解决方案！
 
 ---
 
-**🎉 享受Kourichat安装的便捷体验！**
+**🎉 享受云端安装的便捷体验！**
 
