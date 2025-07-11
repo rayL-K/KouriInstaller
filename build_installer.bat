@@ -136,6 +136,20 @@ echo 清理临时文件...
 if exist "dist" rmdir /s /q "dist"
 if exist "build" rmdir /s /q "build"
 if exist "*.spec" del /q "*.spec"
+
+echo 清理KouriInstaller文件夹...
+if exist "KouriInstaller" (
+    echo 发现KouriInstaller文件夹，正在删除...
+    rmdir /s /q "KouriInstaller"
+    if %errorlevel% equ 0 (
+        echo KouriInstaller文件夹已删除
+    ) else (
+        echo 警告：删除KouriInstaller文件夹失败，请手动删除
+    )
+) else (
+    echo 未发现KouriInstaller文件夹
+)
+
 echo 清理完成
 
 echo.
